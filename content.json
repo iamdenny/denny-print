@@ -1,0 +1,42 @@
+[
+  {
+    "path": "bingo-maker",
+    "title": "Free printable bingo card maker",
+    "description": "Create personalized bingo cards for parties, classrooms and family gatherings.",
+    "answer": "Bingo needs 24 unique words plus one free center square. Each edition shuffles those words into a new 5 × 5 card.",
+    "how": "Enter one word or short phrase per line. Choose a title and the number of sheets, then select Create activity. Print the result or save it as a PDF. Different edition numbers produce different arrangements; the same words and edition reproduce the same cards.",
+    "detail": "For an icebreaker, use prompts such as “has a pet” or “likes hiking.” Players find someone who matches each square. Decide before you begin whether the goal is one line, two lines, or a full card. Keep a caller list when playing traditional word bingo.",
+    "cta": "/#mode=bingo",
+    "action": "Make bingo cards"
+  },
+  {
+    "path": "maze-generator",
+    "title": "Free printable maze generator",
+    "description": "Create solvable mazes with printable answer sheets.",
+    "answer": "Each maze is a 14 × 14 grid with a route from the top entrance to the bottom exit. An edition number lets you reproduce the same puzzle.",
+    "how": "Select Maze, choose an edition and sheet count, and generate the activity. Use Show answers to reveal the solution. Print the puzzle first, then print the answer sheet separately if you need a teaching copy.",
+    "detail": "The generator connects every cell using a randomized depth-first traversal. It builds a spanning tree, so there is exactly one route between any two cells. The solution displayed follows the same connections as the printed puzzle.",
+    "cta": "/#mode=maze",
+    "action": "Create a maze"
+  },
+  {
+    "path": "word-search-maker",
+    "title": "Free printable word search maker",
+    "description": "Build a custom word search with a printable answer key.",
+    "answer": "Use 3–12 unique words, each containing 2–12 letters from A to Z. Puzzles use a 12 × 12 grid.",
+    "how": "Enter words one per line, without spaces or punctuation. Words can run horizontally to the right, vertically downward, or diagonally downward to the right. Select Show answers to highlight every placed word.",
+    "detail": "Choose a coherent theme such as ocean life, food, or space. For younger readers, use shorter words and fewer entries. If a word set does not fit, try another edition or remove a long word. Every word listed under a generated puzzle has been placed in its grid.",
+    "cta": "/#mode=words",
+    "action": "Make a word search"
+  },
+  {
+    "path": "classroom-and-party-activities",
+    "title": "Printable activities for classrooms and parties",
+    "description": "Simple ways to turn printable bingo, mazes and word searches into group activities.",
+    "answer": "Start with the group and the occasion: bingo encourages conversation, mazes suit quiet time, and word searches reinforce a theme.",
+    "how": "For a classroom, choose familiar vocabulary and prepare one answer copy. For a party, make prompts specific enough to spark a story but easy enough for everyone to join. Print one sheet per participant and keep a spare.",
+    "detail": "Create several editions to give participants different arrangements. Use the same edition when a group should work together. Shared activity links include your chosen title and words, so keep names and private information out of links intended for public sharing.",
+    "cta": "/",
+    "action": "Choose an activity"
+  }
+]

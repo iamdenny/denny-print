@@ -6,8 +6,9 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "test": "node --test",
-    "verify": "npm test && npm run build",
-    "dev": "node scripts/serve.mjs"
+    "verify": "npm test && npm run build && node scripts/check-seo.mjs",
+    "dev": "node scripts/serve.mjs",
+    "search:submit": "node scripts/indexnow.mjs"
   },
   "engines": {
     "node": ">=22"
