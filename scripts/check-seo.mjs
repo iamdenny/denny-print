@@ -36,3 +36,31 @@ assert((await stat("dist/social.png")).size > 1000);
 console.log(
   `SEO audit passed: ${urls.length} pages, JSON-LD, links, social image, ads.txt and llms.txt`,
 );
+
+// Reciprocal locale links must reference real canonical pages with matching language.
+for (const url of urls) {
+  const html = await readFile(
+    "dist" + new URL(url).pathname + "index.html",
+    "utf8",
+  );
+  const lang = html.match(/<html lang="([^"]+)"/)[1];
+  const alternates = [
+    ...html.matchAll(
+      /<link rel="alternate" hreflang="([^"]+)" href="([^"]+)">/g,
+    ),
+  ];
+  assert(alternates.some((x) => x[1] === lang && x[2] === url));
+  for (const [, other, target] of alternates) {
+    assert(urls.includes(target), target);
+    const translated = await readFile(
+      "dist" + new URL(target).pathname + "index.html",
+      "utf8",
+    );
+    if (other !== "x-default") {
+      assert(translated.includes(`<html lang="${other}">`));
+      assert(translated.includes(`hreflang="${lang}" href="${url}"`));
+    }
+  }
+  assert(!html.includes("aria-label=t("));
+}
+console.log("Reciprocal hreflang and localized canonical audit passed");

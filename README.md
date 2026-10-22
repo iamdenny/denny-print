@@ -15,3 +15,7 @@ GitHub Actions validates and deploys `dist` to GitHub Pages on main pushes. DNS:
 ## Revenue readiness
 
 Adsterra uses an approved site-specific banner behind explicit visitor consent. AdSense verification metadata and seller records are present; AdSense serving remains disabled pending its approval and certified CMP integration. SEO/GEO includes static guides, JSON-LD, Open Graph, sitemap, robots, llms.txt and release-checked IndexNow submission. No analytics identifier is configured. See docs/launch.md for provider and validation evidence.
+
+## Languages and growth
+
+English, Korean, Japanese and Spanish activity pages are generated at build time. See [multilingual growth](docs/multilingual-growth.md) for catalogs, analytics, advertising and search registration.

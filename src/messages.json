@@ -1,0 +1,1142 @@
+{
+  "Explore": {
+    "en": "Explore",
+    "ko": "둘러보기",
+    "ja": "探す",
+    "es": "Explorar"
+  },
+  "Guides": {
+    "en": "Guides",
+    "ko": "이용 가이드",
+    "ja": "ガイド",
+    "es": "Guías"
+  },
+  "About": {
+    "en": "About",
+    "ko": "소개",
+    "ja": "紹介",
+    "es": "Acerca de"
+  },
+  "Privacy": {
+    "en": "Privacy",
+    "ko": "개인정보",
+    "ja": "プライバシー",
+    "es": "Privacidad"
+  },
+  "Source": {
+    "en": "Source",
+    "ko": "소스 코드",
+    "ja": "ソースコード",
+    "es": "Código fuente"
+  },
+  "Language": {
+    "en": "Language",
+    "ko": "언어",
+    "ja": "言語",
+    "es": "Idioma"
+  },
+  "Skip to content": {
+    "en": "Skip to content",
+    "ko": "본문으로 이동",
+    "ja": "本文へ移動",
+    "es": "Saltar al contenido"
+  },
+  "Main navigation": {
+    "en": "Main navigation",
+    "ko": "주요 메뉴",
+    "ja": "メインメニュー",
+    "es": "Navegación principal"
+  },
+  "About & contact": {
+    "en": "About & contact",
+    "ko": "소개 및 문의",
+    "ja": "紹介・お問い合わせ",
+    "es": "Información y contacto"
+  },
+  "Ad settings": {
+    "en": "Ad settings",
+    "ko": "광고 설정",
+    "ja": "広告設定",
+    "es": "Ajustes de anuncios"
+  },
+  "Advertisement": {
+    "en": "Advertisement",
+    "ko": "광고",
+    "ja": "広告",
+    "es": "Publicidad"
+  },
+  "Advertisement by Adsterra": {
+    "en": "Advertisement by Adsterra",
+    "ko": "Adsterra 광고",
+    "ja": "Adsterraの広告",
+    "es": "Publicidad de Adsterra"
+  },
+  "Advertising choices": {
+    "en": "Advertising choices",
+    "ko": "광고 선택",
+    "ja": "広告の選択",
+    "es": "Opciones de publicidad"
+  },
+  "A choice about advertising.": {
+    "en": "A choice about advertising.",
+    "ko": "광고 표시 여부를 선택하세요.",
+    "ja": "広告表示を選択できます。",
+    "es": "Tú eliges si quieres ver anuncios."
+  },
+  "Allow ads": {
+    "en": "Allow ads",
+    "ko": "광고 허용",
+    "ja": "広告を許可",
+    "es": "Permitir anuncios"
+  },
+  "Decline ads": {
+    "en": "Decline ads",
+    "ko": "광고 거부",
+    "ja": "広告を拒否",
+    "es": "Rechazar anuncios"
+  },
+  "Privacy details": {
+    "en": "Privacy details",
+    "ko": "개인정보 안내",
+    "ja": "プライバシーの詳細",
+    "es": "Detalles de privacidad"
+  },
+  "With your permission, Adsterra can display ads and process connection and device information. Your activity text and quiz answers stay separate.": {
+    "en": "With your permission, Adsterra can display ads and process connection and device information. Your activity text and quiz answers stay separate.",
+    "ko": "동의하면 Adsterra가 광고를 표시하고 접속·기기 정보를 처리합니다. 활동에 입력한 내용과 퀴즈 답변은 전달하지 않습니다.",
+    "ja": "同意するとAdsterraが広告を表示し、接続・端末情報を処理します。入力内容やクイズの回答は送信しません。",
+    "es": "Con tu permiso, Adsterra muestra anuncios y procesa información de conexión y dispositivo. No compartimos el texto de tus actividades ni las respuestas."
+  },
+  "Ads appear here after permission. You can keep using every tool without ads.": {
+    "en": "Ads appear here after permission. You can keep using every tool without ads.",
+    "ko": "동의하면 이곳에 광고가 표시됩니다. 광고 없이도 모든 기능을 이용할 수 있습니다.",
+    "ja": "許可するとここに広告が表示されます。広告なしでもすべての機能を使えます。",
+    "es": "Los anuncios aparecen aquí tras tu permiso. Puedes usar todas las herramientas sin anuncios."
+  },
+  "Your choice applies for this visit; browser storage is unavailable.": {
+    "en": "Your choice applies for this visit; browser storage is unavailable.",
+    "ko": "브라우저 저장소를 사용할 수 없어 이번 방문에만 적용됩니다.",
+    "ja": "ブラウザーに保存できないため、今回の訪問にのみ適用されます。",
+    "es": "Tu elección se aplica a esta visita; el almacenamiento no está disponible."
+  },
+  "Analytics settings": {
+    "en": "Analytics settings",
+    "ko": "방문 통계 설정",
+    "ja": "アクセス解析設定",
+    "es": "Ajustes de analítica"
+  },
+  "Allow analytics": {
+    "en": "Allow analytics",
+    "ko": "방문 통계 허용",
+    "ja": "アクセス解析を許可",
+    "es": "Permitir analítica"
+  },
+  "Decline analytics": {
+    "en": "Decline analytics",
+    "ko": "방문 통계 거부",
+    "ja": "アクセス解析を拒否",
+    "es": "Rechazar analítica"
+  },
+  "Help improve these tools with optional Google Analytics. We send page paths and feature names, never your words, custom values or quiz answers.": {
+    "en": "Help improve these tools with optional Google Analytics. We send page paths and feature names, never your words, custom values or quiz answers.",
+    "ko": "선택적 Google Analytics로 개선에 도움을 줄 수 있습니다. 페이지 경로와 기능 이름만 전송하며 입력 단어·사용자 수치·퀴즈 답변은 보내지 않습니다.",
+    "ja": "任意のGoogle Analyticsで改善に協力できます。ページのパスと機能名のみを送り、入力した単語・数値・クイズの回答は送りません。",
+    "es": "Puedes ayudarnos con Google Analytics opcional. Enviamos rutas y nombres de funciones, nunca tus palabras, valores personalizados ni respuestas."
+  },
+  "Saved.": {
+    "en": "Saved.",
+    "ko": "저장했습니다.",
+    "ja": "保存しました。",
+    "es": "Guardado."
+  },
+  "Enable JavaScript to use this interactive tool.": {
+    "en": "Enable JavaScript to use this interactive tool.",
+    "ko": "이 기능을 사용하려면 JavaScript를 활성화해 주세요.",
+    "ja": "このツールを使うにはJavaScriptを有効にしてください。",
+    "es": "Activa JavaScript para usar esta herramienta."
+  },
+  "Try it now": {
+    "en": "Try it now",
+    "ko": "바로 사용하기",
+    "ja": "今すぐ使う",
+    "es": "Probar ahora"
+  },
+  "How it works": {
+    "en": "How it works",
+    "ko": "사용 방법",
+    "ja": "使い方",
+    "es": "Cómo funciona"
+  },
+  "What to know": {
+    "en": "What to know",
+    "ko": "알아두세요",
+    "ja": "知っておきたいこと",
+    "es": "Qué debes saber"
+  },
+  "Related activities": {
+    "en": "Related activities",
+    "ko": "관련 활동",
+    "ja": "関連アクティビティ",
+    "es": "Actividades relacionadas"
+  },
+  "All activities": {
+    "en": "All activities",
+    "ko": "전체 활동",
+    "ja": "すべてのアクティビティ",
+    "es": "Todas las actividades"
+  },
+  "Sources & method": {
+    "en": "Sources & method",
+    "ko": "출처 및 계산 방법",
+    "ja": "出典と計算方法",
+    "es": "Fuentes y método"
+  },
+  "Updated 22 October 2026 · Denny Lim": {
+    "en": "Updated 22 October 2026 · Denny Lim",
+    "ko": "2026년 10월 22일 업데이트 · Denny Lim",
+    "ja": "2026年10月22日更新 · Denny Lim",
+    "es": "Actualizado el 22 de octubre de 2026 · Denny Lim"
+  },
+  "Page not found": {
+    "en": "Page not found",
+    "ko": "페이지를 찾을 수 없습니다",
+    "ja": "ページが見つかりません",
+    "es": "Página no encontrada"
+  },
+  "Go home": {
+    "en": "Go home",
+    "ko": "홈으로",
+    "ja": "ホームへ",
+    "es": "Ir al inicio"
+  },
+  "Free tools. No account required.": {
+    "en": "Free tools. No account required.",
+    "ko": "무료 도구. 가입 없이 이용하세요.",
+    "ja": "無料ツール。登録は不要です。",
+    "es": "Herramientas gratuitas, sin cuenta."
+  },
+  "Free printable activities": {
+    "en": "Free printable activities",
+    "ko": "무료 인쇄 활동지 만들기",
+    "ja": "無料の印刷用アクティビティ",
+    "es": "Actividades imprimibles gratis"
+  },
+  "Make bingo cards, solvable mazes and English word searches. Customize, share and print in your browser.": {
+    "en": "Make bingo cards, solvable mazes and English word searches. Customize, share and print in your browser.",
+    "ko": "빙고·풀 수 있는 미로·영어 단어찾기를 만들어 보세요. 브라우저에서 수정하고 공유하고 인쇄할 수 있습니다.",
+    "ja": "ビンゴ、解ける迷路、英単語探しを作成。ブラウザーで編集、共有、印刷できます。",
+    "es": "Crea bingos, laberintos con solución y sopas de letras en inglés. Personaliza, comparte e imprime desde el navegador."
+  },
+  "Daily flag quiz & practice": {
+    "en": "Daily flag quiz & practice",
+    "ko": "매일 국기 퀴즈와 지역별 연습",
+    "ja": "毎日の国旗クイズと地域別練習",
+    "es": "Quiz diario de banderas y práctica"
+  },
+  "Five new flags each UTC day. Learn country names in your language and practice by region without changing your daily streak.": {
+    "en": "Five new flags each UTC day. Learn country names in your language and practice by region without changing your daily streak.",
+    "ko": "UTC 기준 매일 새 국기 5개에 도전하세요. 내 언어로 나라 이름을 익히고, 연속 기록에 영향 없이 지역별로 연습할 수 있습니다.",
+    "ja": "UTC基準で毎日5つの国旗に挑戦。自分の言語で国名を学び、連続記録に影響せず地域別に練習できます。",
+    "es": "Cinco banderas cada día UTC. Aprende los nombres en tu idioma y practica por región sin cambiar tu racha diaria."
+  },
+  "Compare countries, planets & heights": {
+    "en": "Compare countries, planets & heights",
+    "ko": "나라·행성·높이 비교",
+    "ja": "国・惑星・高さを比較",
+    "es": "Compara países, planetas y alturas"
+  },
+  "Explore sourced measurements with proportional shapes, exact ratios and downloadable SVG images. Choose a pair or enter your own reference.": {
+    "en": "Explore sourced measurements with proportional shapes, exact ratios and downloadable SVG images. Choose a pair or enter your own reference.",
+    "ko": "출처가 있는 수치를 비례 도형과 정확한 비율로 비교하고 SVG로 저장하세요. 비교 대상을 고르거나 직접 기준값을 입력할 수 있습니다.",
+    "ja": "出典のある数値を比例図形と比率で比較し、SVGで保存。対象を選ぶか、独自の基準値を入力できます。",
+    "es": "Explora medidas con fuentes, formas proporcionales y ratios precisos. Descarga imágenes SVG y elige objetos o tu propia referencia."
+  },
+  "Activity maker": {
+    "en": "Activity maker",
+    "ko": "활동지 만들기",
+    "ja": "アクティビティ作成",
+    "es": "Creador de actividades"
+  },
+  "Bingo": {
+    "en": "Bingo",
+    "ko": "빙고",
+    "ja": "ビンゴ",
+    "es": "Bingo"
+  },
+  "Maze": {
+    "en": "Maze",
+    "ko": "미로",
+    "ja": "迷路",
+    "es": "Laberinto"
+  },
+  "Word search": {
+    "en": "Word search",
+    "ko": "단어찾기",
+    "ja": "単語探し",
+    "es": "Sopa de letras"
+  },
+  "Make it yours": {
+    "en": "Make it yours",
+    "ko": "나만의 활동지",
+    "ja": "自分だけの一枚",
+    "es": "Personalízalo"
+  },
+  "Activity title": {
+    "en": "Activity title",
+    "ko": "활동지 제목",
+    "ja": "タイトル",
+    "es": "Título de la actividad"
+  },
+  "A little adventure": {
+    "en": "A little adventure",
+    "ko": "작은 모험",
+    "ja": "小さな冒険",
+    "es": "Una pequeña aventura"
+  },
+  "Words · one per line": {
+    "en": "Words · one per line",
+    "ko": "단어 · 한 줄에 하나씩",
+    "ja": "単語・1行に1つ",
+    "es": "Palabras · una por línea"
+  },
+  "Bingo needs 24 unique words. Word search uses 3–12 words, A–Z only, up to 12 letters each.": {
+    "en": "Bingo needs 24 unique words. Word search uses 3–12 words, A–Z only, up to 12 letters each.",
+    "ko": "빙고에는 서로 다른 단어 24개가 필요합니다. 단어찾기는 영어 A–Z만 지원하며, 2~12글자 단어 3~12개를 사용합니다.",
+    "ja": "ビンゴには異なる単語24個が必要です。単語探しは英字A–Zのみ、2〜12文字の単語を3〜12個使います。",
+    "es": "El bingo necesita 24 palabras distintas. La sopa usa 3–12 palabras de 2–12 letras, solo A–Z."
+  },
+  "Edition number": {
+    "en": "Edition number",
+    "ko": "생성 번호",
+    "ja": "作成番号",
+    "es": "Número de edición"
+  },
+  "Number of sheets": {
+    "en": "Number of sheets",
+    "ko": "활동지 수",
+    "ja": "枚数",
+    "es": "Número de hojas"
+  },
+  "Maze size": {
+    "en": "Maze size",
+    "ko": "미로 크기",
+    "ja": "迷路のサイズ",
+    "es": "Tamaño del laberinto"
+  },
+  "Create activity ↗": {
+    "en": "Create activity ↗",
+    "ko": "활동지 만들기 ↗",
+    "ja": "作成する ↗",
+    "es": "Crear actividad ↗"
+  },
+  "Print / save PDF": {
+    "en": "Print / save PDF",
+    "ko": "인쇄 / PDF 저장",
+    "ja": "印刷 / PDF保存",
+    "es": "Imprimir / guardar PDF"
+  },
+  "Copy activity link": {
+    "en": "Copy activity link",
+    "ko": "활동지 링크 복사",
+    "ja": "リンクをコピー",
+    "es": "Copiar enlace de actividad"
+  },
+  "Show answers": {
+    "en": "Show answers",
+    "ko": "정답 보기",
+    "ja": "答えを表示",
+    "es": "Mostrar respuestas"
+  },
+  "Hide answers": {
+    "en": "Hide answers",
+    "ko": "정답 숨기기",
+    "ja": "答えを隠す",
+    "es": "Ocultar respuestas"
+  },
+  "Printable activity preview": {
+    "en": "Printable activity preview",
+    "ko": "인쇄할 활동지 미리보기",
+    "ja": "印刷プレビュー",
+    "es": "Vista previa de impresión"
+  },
+  "Choose an edition from 1–999999 and 1–12 sheets.": {
+    "en": "Choose an edition from 1–999999 and 1–12 sheets.",
+    "ko": "생성 번호는 1~999999, 활동지 수는 1~12로 입력하세요.",
+    "ja": "作成番号は1〜999999、枚数は1〜12を指定してください。",
+    "es": "Elige una edición entre 1 y 999999 y de 1 a 12 hojas."
+  },
+  "Please enter at least 24 different words for bingo.": {
+    "en": "Please enter at least 24 different words for bingo.",
+    "ko": "빙고용 단어를 서로 다르게 24개 이상 입력하세요.",
+    "ja": "ビンゴには異なる単語を24個以上入力してください。",
+    "es": "Introduce al menos 24 palabras distintas para el bingo."
+  },
+  "Keep each bingo phrase to 40 characters or fewer.": {
+    "en": "Keep each bingo phrase to 40 characters or fewer.",
+    "ko": "빙고 문구는 각각 40자 이내로 입력하세요.",
+    "ja": "ビンゴの各語句は40文字以内にしてください。",
+    "es": "Cada frase de bingo debe tener como máximo 40 caracteres."
+  },
+  "Use 3–12 different words, each 2–12 letters (A–Z, no spaces).": {
+    "en": "Use 3–12 different words, each 2–12 letters (A–Z, no spaces).",
+    "ko": "공백 없이 영어 A–Z 2~12글자로 된 서로 다른 단어 3~12개를 입력하세요.",
+    "ja": "空白なしの英字A–Zで、2〜12文字の異なる単語を3〜12個入力してください。",
+    "es": "Usa 3–12 palabras distintas de 2–12 letras A–Z, sin espacios."
+  },
+  "These words do not fit. Try fewer words or another edition.": {
+    "en": "These words do not fit. Try fewer words or another edition.",
+    "ko": "단어를 모두 배치할 수 없습니다. 단어를 줄이거나 생성 번호를 바꿔보세요.",
+    "ja": "単語が入りません。単語を減らすか作成番号を変えてください。",
+    "es": "Las palabras no caben. Usa menos palabras u otra edición."
+  },
+  "Start at the opening at the top. Find the exit at the bottom.": {
+    "en": "Start at the opening at the top. Find the exit at the bottom.",
+    "ko": "위쪽 입구에서 시작해 아래쪽 출구를 찾아보세요.",
+    "ja": "上の入口から下の出口を目指しましょう。",
+    "es": "Empieza por la abertura de arriba y encuentra la salida de abajo."
+  },
+  "Printable maze": {
+    "en": "Printable maze",
+    "ko": "인쇄용 미로",
+    "ja": "印刷用迷路",
+    "es": "Laberinto imprimible"
+  },
+  "ANSWER SHEET": {
+    "en": "ANSWER SHEET",
+    "ko": "정답지",
+    "ja": "解答",
+    "es": "RESPUESTAS"
+  },
+  "FREE": {
+    "en": "FREE",
+    "ko": "자유",
+    "ja": "フリー",
+    "es": "LIBRE"
+  },
+  "Edition {n}": {
+    "en": "Edition {n}",
+    "ko": "생성 번호 {n}",
+    "ja": "作成番号 {n}",
+    "es": "Edición {n}"
+  },
+  "{n} sheets ready.": {
+    "en": "{n} sheets ready.",
+    "ko": "활동지 {n}장이 준비됐습니다.",
+    "ja": "{n}枚できました。",
+    "es": "{n} hojas listas."
+  },
+  "Link copied. Your title and words are included in this link.": {
+    "en": "Link copied. Your title and words are included in this link.",
+    "ko": "링크를 복사했습니다. 링크에는 제목과 단어가 포함됩니다.",
+    "ja": "コピーしました。リンクにはタイトルと単語が含まれます。",
+    "es": "Enlace copiado. Incluye el título y las palabras."
+  },
+  "Copy this link: ": {
+    "en": "Copy this link: ",
+    "ko": "이 링크를 복사하세요: ",
+    "ja": "このリンクをコピー: ",
+    "es": "Copia este enlace: "
+  },
+  "Daily flag challenge": {
+    "en": "Daily flag challenge",
+    "ko": "오늘의 국기 퀴즈",
+    "ja": "今日の国旗クイズ",
+    "es": "Reto diario de banderas"
+  },
+  "New each day · 00:00 UTC": {
+    "en": "New each day · 00:00 UTC",
+    "ko": "매일 갱신 · UTC 00:00",
+    "ja": "毎日更新・UTC 00:00",
+    "es": "Nuevo cada día · 00:00 UTC"
+  },
+  "Challenge progress": {
+    "en": "Challenge progress",
+    "ko": "퀴즈 진행 상황",
+    "ja": "クイズの進行状況",
+    "es": "Progreso del reto"
+  },
+  "Question {n} of 5": {
+    "en": "Question {n} of 5",
+    "ko": "5문제 중 {n}번째",
+    "ja": "全5問中の第{n}問",
+    "es": "Pregunta {n} de 5"
+  },
+  "Where in the world?": {
+    "en": "Where in the world?",
+    "ko": "어느 나라일까요?",
+    "ja": "どこの国でしょう？",
+    "es": "¿De qué país es?"
+  },
+  "Flag to identify": {
+    "en": "Flag to identify",
+    "ko": "맞힐 국기",
+    "ja": "当てる国旗",
+    "es": "Bandera por identificar"
+  },
+  "Choose the country this flag belongs to.": {
+    "en": "Choose the country this flag belongs to.",
+    "ko": "이 국기에 해당하는 나라를 고르세요.",
+    "ja": "この国旗の国を選んでください。",
+    "es": "Elige el país al que pertenece esta bandera."
+  },
+  "Next flag →": {
+    "en": "Next flag →",
+    "ko": "다음 국기 →",
+    "ja": "次の国旗 →",
+    "es": "Siguiente bandera →"
+  },
+  "See my result →": {
+    "en": "See my result →",
+    "ko": "결과 보기 →",
+    "ja": "結果を見る →",
+    "es": "Ver resultado →"
+  },
+  "Share your score ↗": {
+    "en": "Share your score ↗",
+    "ko": "점수 공유 ↗",
+    "ja": "スコアを共有 ↗",
+    "es": "Compartir puntuación ↗"
+  },
+  "Come back tomorrow for five new flags. Everyone gets the same daily challenge.": {
+    "en": "Come back tomorrow for five new flags. Everyone gets the same daily challenge.",
+    "ko": "내일 새 국기 5개로 다시 만나요. 같은 날에는 모두 같은 문제를 풉니다.",
+    "ja": "明日は新しい5つの国旗。同じ日には全員が同じ問題に挑戦します。",
+    "es": "Vuelve mañana para cinco banderas nuevas. El reto diario es igual para todos."
+  },
+  "day streak": {
+    "en": "day streak",
+    "ko": "연속 참여일",
+    "ja": "連続日数",
+    "es": "días de racha"
+  },
+  "days explored": {
+    "en": "days explored",
+    "ko": "참여일",
+    "ja": "プレイ日数",
+    "es": "días jugados"
+  },
+  "best score": {
+    "en": "best score",
+    "ko": "최고 점수",
+    "ja": "最高スコア",
+    "es": "mejor puntuación"
+  },
+  "Progress stays in this browser.": {
+    "en": "Progress stays in this browser.",
+    "ko": "기록은 이 브라우저에 저장됩니다.",
+    "ja": "記録はこのブラウザーに保存されます。",
+    "es": "El progreso se guarda en este navegador."
+  },
+  "Reset my progress": {
+    "en": "Reset my progress",
+    "ko": "기록 초기화",
+    "ja": "記録をリセット",
+    "es": "Reiniciar progreso"
+  },
+  "Clear all daily scores and progress stored in this browser?": {
+    "en": "Clear all daily scores and progress stored in this browser?",
+    "ko": "이 브라우저에 저장된 모든 일일 점수와 진행 기록을 지울까요?",
+    "ja": "このブラウザーの日次スコアと進行状況をすべて消去しますか？",
+    "es": "¿Borrar todas las puntuaciones y el progreso diario de este navegador?"
+  },
+  "Storage is unavailable. You can still play, but progress may not be saved.": {
+    "en": "Storage is unavailable. You can still play, but progress may not be saved.",
+    "ko": "저장소를 사용할 수 없습니다. 플레이는 가능하지만 기록이 저장되지 않을 수 있습니다.",
+    "ja": "保存領域を使えません。プレイできますが記録が保存されない場合があります。",
+    "es": "El almacenamiento no está disponible. Puedes jugar, pero quizá no se guarde el progreso."
+  },
+  "Progress could not be saved in this browser.": {
+    "en": "Progress could not be saved in this browser.",
+    "ko": "이 브라우저에 기록을 저장하지 못했습니다.",
+    "ja": "このブラウザーに記録を保存できませんでした。",
+    "es": "No se pudo guardar el progreso en este navegador."
+  },
+  "A perfect little journey!": {
+    "en": "A perfect little journey!",
+    "ko": "완벽하게 맞혔어요!",
+    "ja": "全問正解です！",
+    "es": "¡Un recorrido perfecto!"
+  },
+  "A world worth exploring.": {
+    "en": "A world worth exploring.",
+    "ko": "계속 세계를 알아가요.",
+    "ja": "世界をもっと知ろう。",
+    "es": "Un mundo por explorar."
+  },
+  "{score} out of 5. {message}": {
+    "en": "{score} out of 5. {message}",
+    "ko": "5문제 중 {score}개 정답. {message}",
+    "ja": "5問中{score}問正解。{message}",
+    "es": "{score} de 5. {message}"
+  },
+  "Here are the places you visited today.": {
+    "en": "Here are the places you visited today.",
+    "ko": "이번에 만난 나라들을 확인해 보세요.",
+    "ja": "今回出会った国を振り返りましょう。",
+    "es": "Estos son los países que has visitado."
+  },
+  "Correct! ": {
+    "en": "Correct! ",
+    "ko": "정답! ",
+    "ja": "正解！ ",
+    "es": "¡Correcto! "
+  },
+  "Good to know: ": {
+    "en": "Good to know: ",
+    "ko": "알아두세요: ",
+    "ja": "覚えておこう: ",
+    "es": "Para aprender: "
+  },
+  "This is {country}.": {
+    "en": "This is {country}.",
+    "ko": "{country}의 국기입니다.",
+    "ja": "{country}の国旗です。",
+    "es": "Es la bandera de {country}."
+  },
+  "Score copied. Send it to a friend!": {
+    "en": "Score copied. Send it to a friend!",
+    "ko": "점수를 복사했습니다. 친구에게 보내보세요!",
+    "ja": "スコアをコピーしました。友達に送りましょう！",
+    "es": "Puntuación copiada. ¡Compártela!"
+  },
+  "Practice · does not affect your daily streak": {
+    "en": "Practice · does not affect your daily streak",
+    "ko": "연습 · 일일 연속 기록에 영향 없음",
+    "ja": "練習・連続記録には影響しません",
+    "es": "Práctica · no afecta a tu racha"
+  },
+  "Practice again": {
+    "en": "Practice again",
+    "ko": "다시 연습하기",
+    "ja": "もう一度練習",
+    "es": "Practicar de nuevo"
+  },
+  "Countries in this pack": {
+    "en": "Countries in this pack",
+    "ko": "이 연습의 국가 목록",
+    "ja": "この練習に含まれる国",
+    "es": "Países de este grupo"
+  },
+  "Five questions are drawn from this group. Each has four choices from the same group. Review the names and flags below, then try a new round.": {
+    "en": "Five questions are drawn from this group. Each has four choices from the same group. Review the names and flags below, then try a new round.",
+    "ko": "이 그룹에서 5문제가 출제되며, 보기 4개도 같은 그룹의 국가입니다. 아래 국기와 이름을 익힌 뒤 새 라운드에 도전하세요.",
+    "ja": "このグループから5問を出題し、4つの選択肢も同じグループから選びます。下の国旗と名前を確認してから挑戦しましょう。",
+    "es": "Se eligen cinco preguntas de este grupo, con cuatro opciones del mismo grupo. Repasa los nombres y banderas y prueba otra ronda."
+  },
+  "Country names are localized. Flag emoji appearance depends on your device. Practice rounds do not save scores or change daily progress.": {
+    "en": "Country names are localized. Flag emoji appearance depends on your device. Practice rounds do not save scores or change daily progress.",
+    "ko": "국가 이름은 선택 언어로 표시됩니다. 국기 이모지 모양은 기기에 따라 다릅니다. 연습 점수는 저장하지 않으며 일일 기록을 변경하지 않습니다.",
+    "ja": "国名は選択した言語で表示します。国旗絵文字の見た目は端末によって異なります。練習スコアは保存せず、日次記録も変更しません。",
+    "es": "Los nombres se muestran en tu idioma. Los emoji dependen del dispositivo. La práctica no guarda puntuaciones ni modifica el progreso diario."
+  },
+  "Size comparison": {
+    "en": "Size comparison",
+    "ko": "크기 비교",
+    "ja": "サイズ比較",
+    "es": "Comparación de tamaños"
+  },
+  "Countries": {
+    "en": "Countries",
+    "ko": "나라",
+    "ja": "国",
+    "es": "Países"
+  },
+  "Planets": {
+    "en": "Planets",
+    "ko": "행성",
+    "ja": "惑星",
+    "es": "Planetas"
+  },
+  "Heights": {
+    "en": "Heights",
+    "ko": "높이",
+    "ja": "高さ",
+    "es": "Alturas"
+  },
+  "Pick your perspective": {
+    "en": "Pick your perspective",
+    "ko": "비교할 대상을 고르세요",
+    "ja": "比較する対象を選ぼう",
+    "es": "Elige qué comparar"
+  },
+  "First object": {
+    "en": "First object",
+    "ko": "첫 번째 대상",
+    "ja": "最初の対象",
+    "es": "Primer objeto"
+  },
+  "Compare with": {
+    "en": "Compare with",
+    "ko": "비교 대상",
+    "ja": "比較対象",
+    "es": "Comparar con"
+  },
+  "Or use a custom second value": {
+    "en": "Or use a custom second value",
+    "ko": "또는 두 번째 값을 직접 입력",
+    "ja": "または2つ目の値を入力",
+    "es": "O introduce un segundo valor"
+  },
+  "Optional": {
+    "en": "Optional",
+    "ko": "선택 입력",
+    "ja": "任意",
+    "es": "Opcional"
+  },
+  "Compare ↗": {
+    "en": "Compare ↗",
+    "ko": "비교하기 ↗",
+    "ja": "比較する ↗",
+    "es": "Comparar ↗"
+  },
+  "Swap": {
+    "en": "Swap",
+    "ko": "순서 바꾸기",
+    "ja": "入れ替え",
+    "es": "Intercambiar"
+  },
+  "View": {
+    "en": "View",
+    "ko": "보기 방식",
+    "ja": "表示方法",
+    "es": "Vista"
+  },
+  "Side by side": {
+    "en": "Side by side",
+    "ko": "나란히",
+    "ja": "並べる",
+    "es": "Lado a lado"
+  },
+  "Overlay": {
+    "en": "Overlay",
+    "ko": "겹쳐서",
+    "ja": "重ねる",
+    "es": "Superponer"
+  },
+  "Copy comparison link": {
+    "en": "Copy comparison link",
+    "ko": "비교 링크 복사",
+    "ja": "比較リンクをコピー",
+    "es": "Copiar enlace"
+  },
+  "Download SVG": {
+    "en": "Download SVG",
+    "ko": "SVG 다운로드",
+    "ja": "SVGをダウンロード",
+    "es": "Descargar SVG"
+  },
+  "Custom reference": {
+    "en": "Custom reference",
+    "ko": "사용자 기준값",
+    "ja": "独自の基準値",
+    "es": "Referencia personalizada"
+  },
+  "Unit: {unit}. Leave blank to use the selected object.": {
+    "en": "Unit: {unit}. Leave blank to use the selected object.",
+    "ko": "단위: {unit}. 비워두면 선택한 대상의 값을 사용합니다.",
+    "ja": "単位: {unit}。空欄なら選択した対象の値を使います。",
+    "es": "Unidad: {unit}. Déjalo vacío para usar el objeto seleccionado."
+  },
+  "Custom values must be between 0.001 and 1,000,000,000.": {
+    "en": "Custom values must be between 0.001 and 1,000,000,000.",
+    "ko": "직접 입력하는 값은 0.001~1,000,000,000 사이여야 합니다.",
+    "ja": "入力値は0.001〜1,000,000,000の範囲にしてください。",
+    "es": "El valor debe estar entre 0,001 y 1.000.000.000."
+  },
+  "Choose positive, finite measurements.": {
+    "en": "Choose positive, finite measurements.",
+    "ko": "0보다 큰 유한한 값을 입력하세요.",
+    "ja": "0より大きい有限の値を入力してください。",
+    "es": "Elige medidas positivas y finitas."
+  },
+  "Clear the custom value to swap the preset objects.": {
+    "en": "Clear the custom value to swap the preset objects.",
+    "ko": "대상 순서를 바꾸려면 직접 입력한 값을 지우세요.",
+    "ja": "対象を入れ替えるには入力値を消してください。",
+    "es": "Borra el valor personalizado para intercambiar los objetos."
+  },
+  "Comparison link copied.": {
+    "en": "Comparison link copied.",
+    "ko": "비교 링크를 복사했습니다.",
+    "ja": "比較リンクをコピーしました。",
+    "es": "Enlace de comparación copiado."
+  },
+  "{a} and {b}: {dimension} comparison": {
+    "en": "{a} and {b}: {dimension} comparison",
+    "ko": "{a}와 {b}: {dimension} 비교",
+    "ja": "{a}と{b}: {dimension}の比較",
+    "es": "{a} y {b}: comparación de {dimension}"
+  },
+  "{a} has {ratio} times the {dimension} of {b}.": {
+    "en": "{a} has {ratio} times the {dimension} of {b}.",
+    "ko": "{a}의 {dimension}는 {b}의 {ratio}배입니다.",
+    "ja": "{a}の{dimension}は{b}の{ratio}倍です。",
+    "es": "La medida de {dimension} de {a} es {ratio} veces la de {b}."
+  },
+  "Simplified shapes": {
+    "en": "Simplified shapes",
+    "ko": "단순화한 도형",
+    "ja": "簡略化した図形",
+    "es": "Formas simplificadas"
+  },
+  "surface area": {
+    "en": "surface area",
+    "ko": "면적",
+    "ja": "表面積",
+    "es": "superficie"
+  },
+  "equatorial diameter": {
+    "en": "equatorial diameter",
+    "ko": "적도 지름",
+    "ja": "赤道直径",
+    "es": "diámetro ecuatorial"
+  },
+  "height": {
+    "en": "height",
+    "ko": "높이",
+    "ja": "高さ",
+    "es": "altura"
+  },
+  "Mercury": {
+    "en": "Mercury",
+    "ko": "수성",
+    "ja": "水星",
+    "es": "Mercurio"
+  },
+  "Venus": {
+    "en": "Venus",
+    "ko": "금성",
+    "ja": "金星",
+    "es": "Venus"
+  },
+  "Earth": {
+    "en": "Earth",
+    "ko": "지구",
+    "ja": "地球",
+    "es": "Tierra"
+  },
+  "Mars": {
+    "en": "Mars",
+    "ko": "화성",
+    "ja": "火星",
+    "es": "Marte"
+  },
+  "Jupiter": {
+    "en": "Jupiter",
+    "ko": "목성",
+    "ja": "木星",
+    "es": "Júpiter"
+  },
+  "Saturn": {
+    "en": "Saturn",
+    "ko": "토성",
+    "ja": "土星",
+    "es": "Saturno"
+  },
+  "Uranus": {
+    "en": "Uranus",
+    "ko": "천왕성",
+    "ja": "天王星",
+    "es": "Urano"
+  },
+  "Neptune": {
+    "en": "Neptune",
+    "ko": "해왕성",
+    "ja": "海王星",
+    "es": "Neptuno"
+  },
+  "Eiffel Tower": {
+    "en": "Eiffel Tower",
+    "ko": "에펠탑",
+    "ja": "エッフェル塔",
+    "es": "Torre Eiffel"
+  },
+  "Burj Khalifa": {
+    "en": "Burj Khalifa",
+    "ko": "부르즈 할리파",
+    "ja": "ブルジュ・ハリファ",
+    "es": "Burj Khalifa"
+  },
+  "Example person": {
+    "en": "Example person",
+    "ko": "예시 사람",
+    "ja": "人の例",
+    "es": "Persona de ejemplo"
+  },
+  "Equal-area squares, not geographic outlines. Square area is proportional to country surface area, including inland water. World Bank 2024 observations.": {
+    "en": "Equal-area squares, not geographic outlines. Square area is proportional to country surface area, including inland water. World Bank 2024 observations.",
+    "ko": "실제 지도 윤곽이 아닌 정사각형입니다. 정사각형 넓이는 내수를 포함한 국가 면적에 비례합니다. 세계은행 2024년 관측값을 사용합니다.",
+    "ja": "地図の輪郭ではなく正方形です。正方形の面積は内水を含む国土面積に比例します。世界銀行の2024年観測値です。",
+    "es": "Son cuadrados, no contornos geográficos. Su área es proporcional a la superficie del país, incluidas aguas interiores. Datos del Banco Mundial de 2024."
+  },
+  "Circles compare equatorial diameters from the NASA Planetary Fact Sheet. Distances, rings, surface details and volumes are not represented. Values are rounded reference measurements.": {
+    "en": "Circles compare equatorial diameters from the NASA Planetary Fact Sheet. Distances, rings, surface details and volumes are not represented. Values are rounded reference measurements.",
+    "ko": "NASA 행성 자료의 적도 지름을 원으로 비교합니다. 거리·고리·표면·부피는 표현하지 않으며 수치는 반올림한 참고값입니다.",
+    "ja": "NASAの資料にある赤道直径を円で比較します。距離、環、表面、体積は表しません。数値は丸めた参考値です。",
+    "es": "Los círculos comparan diámetros ecuatoriales de NASA. No representan distancias, anillos, superficie ni volumen. Son medidas de referencia redondeadas."
+  },
+  "Bars compare published heights, not building silhouettes or volumes. Eiffel Tower height includes its antenna; Burj Khalifa uses architectural height. A custom height is your own reference value.": {
+    "en": "Bars compare published heights, not building silhouettes or volumes. Eiffel Tower height includes its antenna; Burj Khalifa uses architectural height. A custom height is your own reference value.",
+    "ko": "막대는 발표된 높이를 비교하며 건물 외형이나 부피를 표현하지 않습니다. 에펠탑은 안테나를 포함하고 부르즈 할리파는 건축물 높이를 사용합니다. 직접 입력한 높이는 사용자 기준값입니다.",
+    "ja": "棒は公表された高さを比較し、外形や体積は表しません。エッフェル塔はアンテナ込み、ブルジュ・ハリファは建築上の高さです。入力値は独自の基準です。",
+    "es": "Las barras comparan alturas publicadas, no siluetas ni volúmenes. La Torre Eiffel incluye su antena; Burj Khalifa usa altura arquitectónica. El valor personalizado es tu referencia."
+  },
+  "{a} vs {b}": {
+    "en": "{a} vs {b}",
+    "ko": "{a} vs {b}",
+    "ja": "{a}と{b}の比較",
+    "es": "{a} frente a {b}"
+  },
+  "Measurement": {
+    "en": "Measurement",
+    "ko": "측정 항목",
+    "ja": "測定項目",
+    "es": "Medida"
+  },
+  "Value": {
+    "en": "Value",
+    "ko": "값",
+    "ja": "値",
+    "es": "Valor"
+  },
+  "Ratio = first value ÷ second value. For areas, side lengths use the square root of the area ratio. Diameter and height use a linear scale.": {
+    "en": "Ratio = first value ÷ second value. For areas, side lengths use the square root of the area ratio. Diameter and height use a linear scale.",
+    "ko": "비율은 첫 번째 값 ÷ 두 번째 값입니다. 면적의 변 길이는 면적 비율의 제곱근을 사용하고, 지름과 높이는 선형 비율을 사용합니다.",
+    "ja": "比率は最初の値÷2つ目の値。面積の辺の長さには比率の平方根を使い、直径と高さには線形比率を使います。",
+    "es": "El ratio es el primer valor dividido por el segundo. Para áreas, los lados usan la raíz cuadrada del ratio. Diámetro y altura usan escala lineal."
+  },
+  "Choose another pair, swap objects or enter a custom reference. Shared links preserve your settings; SVG downloads preserve the labels and exact values.": {
+    "en": "Choose another pair, swap objects or enter a custom reference. Shared links preserve your settings; SVG downloads preserve the labels and exact values.",
+    "ko": "다른 대상을 고르거나 순서를 바꾸고 직접 기준값을 입력해 보세요. 공유 링크는 설정을, SVG 다운로드는 이름과 수치를 보존합니다.",
+    "ja": "対象の変更、入れ替え、独自の値の入力ができます。共有リンクは設定を、SVGは名称と数値を保持します。",
+    "es": "Elige otra pareja, intercambia objetos o introduce una referencia. Los enlaces conservan los ajustes y los SVG las etiquetas y valores."
+  },
+  "Ocean": {
+    "en": "Ocean",
+    "ko": "바다",
+    "ja": "海",
+    "es": "Océano"
+  },
+  "Animals": {
+    "en": "Animals",
+    "ko": "동물",
+    "ja": "動物",
+    "es": "Animales"
+  },
+  "Space": {
+    "en": "Space",
+    "ko": "우주",
+    "ja": "宇宙",
+    "es": "Espacio"
+  },
+  "Food": {
+    "en": "Food",
+    "ko": "음식",
+    "ja": "食べ物",
+    "es": "Comida"
+  },
+  "Nature": {
+    "en": "Nature",
+    "ko": "자연",
+    "ja": "自然",
+    "es": "Naturaleza"
+  },
+  "Classroom": {
+    "en": "Classroom",
+    "ko": "교실",
+    "ja": "教室",
+    "es": "Aula"
+  },
+  "Easy": {
+    "en": "Easy",
+    "ko": "쉬움",
+    "ja": "やさしい",
+    "es": "Fácil"
+  },
+  "Medium": {
+    "en": "Medium",
+    "ko": "보통",
+    "ja": "ふつう",
+    "es": "Medio"
+  },
+  "Challenging": {
+    "en": "Challenging",
+    "ko": "어려움",
+    "ja": "難しい",
+    "es": "Difícil"
+  },
+  "{theme} bingo cards": {
+    "en": "{theme} bingo cards",
+    "ko": "{theme} 빙고 카드",
+    "ja": "{theme}のビンゴカード",
+    "es": "Bingo de {theme}"
+  },
+  "{theme} English word search": {
+    "en": "{theme} English word search",
+    "ko": "{theme} 영어 단어찾기",
+    "ja": "{theme}の英単語探し",
+    "es": "Sopa de letras en inglés: {theme}"
+  },
+  "{theme} maze · {size} × {size}": {
+    "en": "{theme} maze · {size} × {size}",
+    "ko": "{theme} 미로 · {size} × {size}",
+    "ja": "{theme}迷路・{size} × {size}",
+    "es": "Laberinto {theme} · {size} × {size}"
+  },
+  "Ready-made vocabulary for a {theme} activity. Edit the words, choose an edition and print a different card for each player.": {
+    "en": "Ready-made vocabulary for a {theme} activity. Edit the words, choose an edition and print a different card for each player.",
+    "ko": "{theme} 주제의 단어가 준비돼 있습니다. 단어를 수정하고 생성 번호를 골라 참가자마다 다른 카드를 인쇄하세요.",
+    "ja": "{theme}をテーマにした単語を用意しました。単語と作成番号を選び、参加者ごとに違うカードを印刷できます。",
+    "es": "Vocabulario listo para una actividad de {theme}. Edita las palabras, elige una edición e imprime una tarjeta distinta para cada jugador."
+  },
+  "Find the {n} English words from the {theme} list in a 12 × 12 grid. Words run right, down or diagonally down-right. An answer sheet is included.": {
+    "en": "Find the {n} English words from the {theme} list in a 12 × 12 grid. Words run right, down or diagonally down-right. An answer sheet is included.",
+    "ko": "12 × 12 격자에서 {theme} 주제의 영어 단어 {n}개를 찾으세요. 단어는 오른쪽·아래·오른쪽 아래 대각선으로 배치됩니다. 정답지도 만들 수 있습니다.",
+    "ja": "12 × 12のマスから{theme}の英単語{n}個を探しましょう。右、下、右下に並びます。解答も表示できます。",
+    "es": "Encuentra {n} palabras en inglés sobre {theme} en una cuadrícula de 12 × 12. Van a la derecha, abajo o en diagonal abajo-derecha. Incluye respuestas."
+  },
+  "This maze has {size} × {size} cells and one route from top to bottom. Change the edition to make another puzzle of the same size.": {
+    "en": "This maze has {size} × {size} cells and one route from top to bottom. Change the edition to make another puzzle of the same size.",
+    "ko": "{size} × {size}칸 미로에는 위에서 아래로 이어지는 경로가 하나 있습니다. 생성 번호를 바꾸면 같은 크기의 새 미로를 만듭니다.",
+    "ja": "{size} × {size}マスの迷路には上から下への道が1つあります。作成番号を変えると同じサイズの別の迷路になります。",
+    "es": "Este laberinto tiene {size} × {size} celdas y una ruta de arriba abajo. Cambia la edición para crear otro del mismo tamaño."
+  },
+  "Choose a title and 1–12 sheets. Each sheet uses the next edition number. Print the puzzle first, then reveal the answers for a separate teaching copy.": {
+    "en": "Choose a title and 1–12 sheets. Each sheet uses the next edition number. Print the puzzle first, then reveal the answers for a separate teaching copy.",
+    "ko": "제목과 활동지 수 1~12장을 고르세요. 각 활동지는 다음 생성 번호를 사용합니다. 문제를 먼저 인쇄하고 정답을 표시해 교사용 사본을 따로 인쇄하세요.",
+    "ja": "タイトルと1〜12枚の枚数を選びます。各用紙は次の作成番号を使用。問題を印刷した後、答えを表示して指導用に印刷できます。",
+    "es": "Elige un título y de 1 a 12 hojas. Cada hoja usa la siguiente edición. Imprime el ejercicio primero y luego muestra las respuestas para una copia docente."
+  },
+  "Choose a caller and decide whether a line or a full card wins. Call the words in random order. The center square is free, and each card contains 24 different entries.": {
+    "en": "Choose a caller and decide whether a line or a full card wins. Call the words in random order. The center square is free, and each card contains 24 different entries.",
+    "ko": "진행자를 정하고 한 줄 또는 전체 칸 완성 중 승리 조건을 정하세요. 단어를 무작위 순서로 불러줍니다. 가운데는 자유 칸이며 카드마다 서로 다른 항목 24개가 들어갑니다.",
+    "ja": "進行役を決め、1列か全マスかの勝利条件を決めます。単語をランダムに読み上げます。中央はフリーで、各カードには異なる24項目が入ります。",
+    "es": "Elige quién canta las palabras y si gana una línea o el cartón completo. El centro es libre y cada tarjeta contiene 24 entradas distintas."
+  },
+  "Word list": {
+    "en": "Word list",
+    "ko": "단어 목록",
+    "ja": "単語リスト",
+    "es": "Lista de palabras"
+  },
+  "World": {
+    "en": "World",
+    "ko": "세계",
+    "ja": "世界",
+    "es": "Mundo"
+  },
+  "Europe": {
+    "en": "Europe",
+    "ko": "유럽",
+    "ja": "ヨーロッパ",
+    "es": "Europa"
+  },
+  "Asia": {
+    "en": "Asia",
+    "ko": "아시아",
+    "ja": "アジア",
+    "es": "Asia"
+  },
+  "Americas": {
+    "en": "Americas",
+    "ko": "아메리카",
+    "ja": "南北アメリカ",
+    "es": "América"
+  },
+  "Africa": {
+    "en": "Africa",
+    "ko": "아프리카",
+    "ja": "アフリカ",
+    "es": "África"
+  },
+  "Northern Europe": {
+    "en": "Northern Europe",
+    "ko": "북유럽",
+    "ja": "北ヨーロッパ",
+    "es": "Europa del Norte"
+  },
+  "Mediterranean": {
+    "en": "Mediterranean",
+    "ko": "지중해 지역",
+    "ja": "地中海地域",
+    "es": "Mediterráneo"
+  },
+  "Asia Pacific": {
+    "en": "Asia Pacific",
+    "ko": "아시아·태평양",
+    "ja": "アジア太平洋",
+    "es": "Asia-Pacífico"
+  },
+  "{region} flag practice": {
+    "en": "{region} flag practice",
+    "ko": "{region} 국기 연습",
+    "ja": "{region}の国旗練習",
+    "es": "Practica banderas de {region}"
+  },
+  "Learn {n} country flags from {region}, then answer five questions with localized country names. Play again with a new selection.": {
+    "en": "Learn {n} country flags from {region}, then answer five questions with localized country names. Play again with a new selection.",
+    "ko": "{region}의 국기 {n}개를 익힌 뒤 선택 언어로 5문제를 풀어보세요. 새 문제 조합으로 반복 연습할 수 있습니다.",
+    "ja": "{region}の国旗{n}個を学び、選択した言語で5問に挑戦。新しい組み合わせで何度でも練習できます。",
+    "es": "Aprende {n} banderas de {region} y responde cinco preguntas con nombres en tu idioma. Repite con una selección nueva."
+  },
+  "About these tools": {
+    "en": "About these tools",
+    "ko": "서비스 소개",
+    "ja": "このツールについて",
+    "es": "Acerca de estas herramientas"
+  },
+  "Independent tools by Denny Lim. No account is required. Activities run in your browser. Source code and issue tracking are public; do not put private information in public issues.": {
+    "en": "Independent tools by Denny Lim. No account is required. Activities run in your browser. Source code and issue tracking are public; do not put private information in public issues.",
+    "ko": "Denny Lim이 운영하는 독립 서비스입니다. 가입 없이 브라우저에서 이용할 수 있습니다. 소스 코드와 이슈는 공개되어 있으니 문의에 개인정보를 넣지 마세요.",
+    "ja": "Denny Limによる独立サービスです。登録不要でブラウザー上で動きます。コードと課題管理は公開されているため、個人情報は書き込まないでください。",
+    "es": "Herramientas independientes de Denny Lim, sin cuenta y ejecutadas en tu navegador. El código y las incidencias son públicos; no incluyas información privada."
+  },
+  "Guides describe implemented behavior. Comparisons cite measurement definitions and sources. Localized pages keep the same underlying data and functionality. Corrections are welcome through the repository.": {
+    "en": "Guides describe implemented behavior. Comparisons cite measurement definitions and sources. Localized pages keep the same underlying data and functionality. Corrections are welcome through the repository.",
+    "ko": "가이드는 실제 기능을 설명합니다. 비교에는 측정 정의와 출처를 표시합니다. 언어별 페이지는 같은 데이터와 기능을 사용합니다. 오류는 저장소에 제보해 주세요.",
+    "ja": "ガイドは実装済みの動作を説明します。比較には測定定義と出典を記載し、各言語で同じデータと機能を使います。訂正はリポジトリへお願いします。",
+    "es": "Las guías describen funciones reales. Las comparaciones citan definiciones y fuentes. Cada idioma usa los mismos datos y funciones. Puedes proponer correcciones en el repositorio."
+  },
+  "Your input and progress": {
+    "en": "Your input and progress",
+    "ko": "입력 내용과 이용 기록",
+    "ja": "入力内容と記録",
+    "es": "Tus datos y progreso"
+  },
+  "Inputs are processed locally. Daily progress stays in this browser. Shared links include the settings you choose, so avoid private information. Reset progress or clear site data to remove local records.": {
+    "en": "Inputs are processed locally. Daily progress stays in this browser. Shared links include the settings you choose, so avoid private information. Reset progress or clear site data to remove local records.",
+    "ko": "입력은 브라우저 안에서 처리되고 일일 기록도 이 브라우저에 저장됩니다. 공유 링크에는 선택한 설정이 포함되므로 개인정보는 넣지 마세요. 기록 초기화 또는 사이트 데이터 삭제로 지울 수 있습니다.",
+    "ja": "入力は端末内で処理し、日次記録もこのブラウザーに保存します。共有リンクには設定が含まれるため個人情報は避けてください。記録のリセットやサイトデータ削除で消せます。",
+    "es": "Las entradas se procesan localmente y el progreso diario queda en este navegador. Los enlaces incluyen tus ajustes: evita datos privados. Reinicia el progreso o borra los datos del sitio para eliminarlos."
+  },
+  "Hosting and fonts": {
+    "en": "Hosting and fonts",
+    "ko": "호스팅과 글꼴",
+    "ja": "ホスティングとフォント",
+    "es": "Alojamiento y fuentes"
+  },
+  "GitHub Pages hosts this site. Google Fonts supplies fonts. These providers receive ordinary connection information such as IP addresses under their own privacy policies.": {
+    "en": "GitHub Pages hosts this site. Google Fonts supplies fonts. These providers receive ordinary connection information such as IP addresses under their own privacy policies.",
+    "ko": "GitHub Pages가 사이트를 호스팅하고 Google Fonts가 글꼴을 제공합니다. 각 제공업체는 자체 개인정보 정책에 따라 IP 주소 등 일반 접속 정보를 받습니다.",
+    "ja": "GitHub Pagesがホスティングし、Google Fontsがフォントを提供します。各社の方針に基づきIPアドレスなどの接続情報を受け取ります。",
+    "es": "GitHub Pages aloja el sitio y Google Fonts sirve las fuentes. Estos proveedores reciben información de conexión, como la IP, según sus políticas."
+  },
+  "Advertising and analytics": {
+    "en": "Advertising and analytics",
+    "ko": "광고와 방문 통계",
+    "ja": "広告とアクセス解析",
+    "es": "Publicidad y analítica"
+  },
+  "Optional Adsterra ads load only after advertising permission. Optional Google Analytics loads only after analytics permission. Providers may process cookies, device and connection information. Choices are stored for up to 180 days and can be changed in the footer. Refusing does not restrict any tool. AdSense is not served while approval is pending.": {
+    "en": "Optional Adsterra ads load only after advertising permission. Optional Google Analytics loads only after analytics permission. Providers may process cookies, device and connection information. Choices are stored for up to 180 days and can be changed in the footer. Refusing does not restrict any tool. AdSense is not served while approval is pending.",
+    "ko": "선택적 Adsterra 광고는 광고 동의 후에만, 선택적 Google Analytics는 방문 통계 동의 후에만 로드됩니다. 제공업체는 쿠키·기기·접속 정보를 처리할 수 있습니다. 선택은 최대 180일 저장되며 하단에서 바꿀 수 있습니다. 거부해도 기능을 제한하지 않습니다. AdSense는 승인 대기 중에는 송출하지 않습니다.",
+    "ja": "任意のAdsterra広告は広告への同意後、Google Analyticsは解析への同意後にのみ読み込みます。提供会社がCookie・端末・接続情報を処理する場合があります。選択は最大180日保存され、フッターで変更できます。拒否しても機能は制限しません。AdSenseは承認待ちの間は配信しません。",
+    "es": "Los anuncios opcionales de Adsterra y Google Analytics solo se cargan con su permiso respectivo. Los proveedores pueden procesar cookies y datos del dispositivo y conexión. Guardamos tu elección hasta 180 días; puedes cambiarla en el pie. Rechazar no limita las herramientas. AdSense no se sirve mientras espera aprobación."
+  },
+  "Analytics receives page paths and feature names. We exclude URL queries, URL fragments, user-entered text, custom values and quiz answers. Withdrawing consent stops future collection on this site; it does not remove data already processed by the provider.": {
+    "en": "Analytics receives page paths and feature names. We exclude URL queries, URL fragments, user-entered text, custom values and quiz answers. Withdrawing consent stops future collection on this site; it does not remove data already processed by the provider.",
+    "ko": "방문 통계에는 페이지 경로와 기능 이름만 전송합니다. URL 쿼리·해시·입력 내용·사용자 수치·퀴즈 답변은 제외합니다. 동의를 철회하면 이후 수집을 중단하지만 제공업체가 이미 처리한 데이터는 삭제되지 않습니다.",
+    "ja": "解析にはページのパスと機能名のみを送り、URLのクエリ・フラグメント、入力内容、数値、クイズの回答は除外します。同意撤回後は収集を停止しますが、既に処理されたデータは削除されません。",
+    "es": "La analítica recibe rutas y nombres de funciones. Excluimos consultas y fragmentos de URL, texto, valores y respuestas. Retirar el permiso detiene la recogida futura, pero no elimina datos ya procesados."
+  }
+}

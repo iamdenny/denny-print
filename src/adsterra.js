@@ -1,3 +1,4 @@
+import { t } from "./i18n.js";
 const KEY = "denny-ad-consent-v1",
   LIFETIME = 180 * 86400000;
 export function readChoice(value, now = Date.now()) {
@@ -51,14 +52,15 @@ if (typeof document !== "undefined") {
   function render() {
     if (!c || !validBanner(c)) return;
     panel.hidden = choice !== null;
-    box.hidden = choice !== "granted";
+    box.hidden = false;
+    box.querySelector("[data-ad-empty]").hidden = choice === "granted";
     if (choice !== "granted") {
       box.querySelector("iframe")?.remove();
       return;
     }
     if (box.querySelector("iframe")) return;
     const iframe = document.createElement("iframe");
-    iframe.title = "Advertisement by Adsterra";
+    iframe.title = t("Advertisement by Adsterra");
     iframe.width = "300";
     iframe.height = "250";
     iframe.style.border = "0";
@@ -76,15 +78,21 @@ if (typeof document !== "undefined") {
       try {
         localStorage.setItem(KEY, JSON.stringify({ choice, at: Date.now() }));
       } catch {
-        status.textContent =
-          "Your choice applies for this visit; browser storage is unavailable.";
+        status.textContent = t(
+          "Your choice applies for this visit; browser storage is unavailable.",
+        );
       }
       render();
+      document.dispatchEvent(new Event("ad-choice-saved"));
     });
-  document.querySelector("#ad-settings")?.addEventListener("click", () => {
-    panel.hidden = false;
-    panel.querySelector("button").focus();
-  });
+  for (const button of document.querySelectorAll(
+    "#ad-settings, [data-open-ads]",
+  ))
+    button.addEventListener("click", () => {
+      document.querySelector("#analytics-choice").hidden = true;
+      panel.hidden = false;
+      panel.querySelector("button").focus();
+    });
   window.addEventListener("storage", (e) => {
     if (e.key === KEY || e.key === null) {
       choice = read();

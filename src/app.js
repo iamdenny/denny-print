@@ -1,3 +1,4 @@
+import { t, locale, country, preset } from "./i18n.js";
 import { bingo, maze, wordsearch } from "./logic.js";
 const $ = (s) => document.querySelector(s),
   preview = $("#preview"),
@@ -25,10 +26,10 @@ function draw() {
       count < 1 ||
       count > 12
     )
-      throw Error("Choose an edition from 1–999999 and 1–12 sheets.");
+      throw Error(t("Choose an edition from 1–999999 and 1–12 sheets."));
     let html = "";
     for (let c = 0; c < count; c++) {
-      const title = esc($("#title").value || "A little adventure");
+      const title = esc($("#title").value || t("A little adventure"));
       let content = "";
       if (mode === "bingo") {
         content =
@@ -36,18 +37,19 @@ function draw() {
           bingo($("#words").value.split("\n"), seed + c)
             .map(
               (w, i) =>
-                `<span class="${i === 12 ? "free" : ""}">${esc(w)}</span>`,
+                `<span class="${i === 12 ? "free" : ""}">${esc(i === 12 ? t("FREE") : w)}</span>`,
             )
             .join("") +
           "</div>";
       } else if (mode === "maze") {
-        const m = maze(14, seed + c),
-          step = 24,
+        const size = Number($("#size").value);
+        const m = maze(size, seed + c),
+          step = 336 / size,
           pad = 12;
         let lines = "";
         m.walls.forEach((w, i) => {
-          let x = (i % 14) * step + pad,
-            y = Math.floor(i / 14) * step + pad;
+          let x = (i % size) * step + pad,
+            y = Math.floor(i / size) * step + pad;
           const coords = [
             [x, y, x + step, y],
             [x + step, y, x + step, y + step],
@@ -59,7 +61,7 @@ function draw() {
               lines += `<line x1="${coords[d][0]}" y1="${coords[d][1]}" x2="${coords[d][2]}" y2="${coords[d][3]}"/>`;
           });
         });
-        content = `<p class="muted">Start at the opening at the top. Find the exit at the bottom.</p><svg viewBox="0 0 360 360" role="img" aria-label="Printable maze"><g stroke="#252821" stroke-width="1.8">${lines}</g>${answers ? `<polyline points="${m.path.map((i) => `${(i % 14) * 24 + 24},${Math.floor(i / 14) * 24 + 24}`).join(" ")}" fill="none" stroke="#c34e30" stroke-width="4"/>` : ""}</svg>`;
+        content = `<p class="muted">${t("Start at the opening at the top. Find the exit at the bottom.")}</p><svg viewBox="0 0 360 360" role="img" aria-label="${t("Printable maze")}"><g stroke="#252821" stroke-width="1.8">${lines}</g>${answers ? `<polyline points="${m.path.map((i) => `${(i % size) * step + pad + step / 2},${Math.floor(i / size) * step + pad + step / 2}`).join(" ")}" fill="none" stroke="#c34e30" stroke-width="4"/>` : ""}</svg>`;
       } else {
         const w = wordsearch($("#words").value.split("\n"), seed + c),
           highlight = new Set();
@@ -83,14 +85,14 @@ function draw() {
           w.words.join(" · ") +
           "</p>";
       }
-      html += `<article class="sheet"><small>DENNY PRINT / ${mode.toUpperCase()} ${answers && mode !== "bingo" ? "· ANSWER SHEET" : ""}</small><h2>${title}</h2>${content}<small>Edition ${seed + c} · print.iamdenny.com</small></article>`;
+      html += `<article class="sheet"><small>DENNY PRINT / ${t({ bingo: "Bingo", maze: "Maze", words: "Word search" }[mode])} ${answers && mode !== "bingo" ? "· " + t("ANSWER SHEET") : ""}</small><h2>${title}</h2>${content}<small>${t("Edition {n}", { n: seed + c })} · print.iamdenny.com</small></article>`;
     }
     preview.innerHTML = html;
-    status.textContent = `${count} ${count === 1 ? "sheet" : "sheets"} ready.`;
+    status.textContent = t("{n} sheets ready.", { n: count });
     $("#print").disabled = false;
     return true;
   } catch (e) {
-    status.textContent = e.message;
+    status.textContent = t(e.message);
     preview.replaceChildren();
     $("#print").disabled = true;
     return false;
@@ -104,15 +106,23 @@ function setMode(next) {
       b.setAttribute("aria-pressed", String(b.dataset.mode === mode)),
     );
   $("#word-controls").hidden = mode === "maze";
+  $("#maze-controls").hidden = mode !== "maze";
   $("#solution").hidden = mode === "bingo";
   answers = false;
-  $("#solution").textContent = "Show answers";
+  $("#solution").textContent = t("Show answers");
   $("#solution").setAttribute("aria-pressed", "false");
 }
 document.querySelectorAll("[data-mode]").forEach((b) =>
   b.addEventListener("click", () => {
     setMode(b.dataset.mode);
-    $("#words").value = mode === "words" ? wordPreset : original;
+    $("#words").value =
+      mode === "words"
+        ? preset.mode === "words"
+          ? original
+          : wordPreset
+        : preset.mode === "words"
+          ? preset.bingoWords.join("\n")
+          : original;
     draw();
   }),
 );
@@ -125,7 +135,7 @@ $("#print").addEventListener("click", () => {
 });
 $("#solution").addEventListener("click", () => {
   answers = !answers;
-  $("#solution").textContent = answers ? "Hide answers" : "Show answers";
+  $("#solution").textContent = answers ? t("Hide answers") : t("Show answers");
   $("#solution").setAttribute("aria-pressed", String(answers));
   draw();
 });
@@ -137,22 +147,26 @@ $("#share").addEventListener("click", async () => {
     words: $("#words").value,
     seed: $("#seed").value,
     count: $("#count").value,
+    size: $("#size").value,
   });
   const url = new URL(location.href);
   url.hash = params.toString();
   try {
     await navigator.clipboard.writeText(url.href);
-    status.textContent =
-      "Link copied. Your title and words are included in this link.";
+    status.textContent = t(
+      "Link copied. Your title and words are included in this link.",
+    );
   } catch {
-    status.textContent = "Copy this link: " + url.href;
+    status.textContent = t("Copy this link: ") + url.href;
   }
 });
 const params = new URLSearchParams(location.hash.slice(1));
 if (["bingo", "maze", "words"].includes(params.get("mode")))
   setMode(params.get("mode"));
-else setMode("bingo");
-if (mode === "words") $("#words").value = wordPreset;
+else setMode(preset.mode || "bingo");
+if (mode === "words" && preset.mode !== "words") $("#words").value = wordPreset;
+if (["10", "14", "20"].includes(params.get("size")))
+  $("#size").value = params.get("size");
 for (const key of ["title", "words", "seed", "count"])
   if (params.has(key))
     $("#" + key).value = params.get(key).slice(0, key === "words" ? 2000 : 65);
