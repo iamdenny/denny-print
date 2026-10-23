@@ -12,10 +12,10 @@ export const mathFamilies = [
  {id:'fraction',start:2,title:['One over {n} of a quantity','수량의 {n}분의 1','数量の{n}分の1','1/{n} de una cantidad'],how:['Find one equal part of the whole quantity. Divide by the denominator; the quantities are chosen to give whole-number answers.','전체를 똑같이 나눈 한 부분을 구하세요. 분모로 나누면 됩니다. 답이 정수가 되는 수량을 사용합니다.','全体を等分した1つ分を求めます。分母で割ります。答えが整数になる数量を使います。','Halla una parte igual del total dividiendo entre el denominador. Las cantidades dan respuestas enteras.']}
 ];
 // Twenty-four exercises per edition; all generated operands stay small enough for pencil-and-paper work.
-export const mathActivities = mathFamilies.flatMap(f => Array.from({length:10},(_,i)=>{
- const n=f.start+i;
+export const mathActivities = [0,10].flatMap(offset => mathFamilies.flatMap(f => Array.from({length:10},(_,i)=>{
+ const n=f.start+offset+i;
  return {id:`${f.id}-${n}`, family:f.id, n, title:f.title.map(x=>x.replaceAll('{n}',n)), how:f.how};
-}));
+})));
 export function mathWorksheet(id,seed=1) {
  const p=mathActivities.find(x=>x.id===id);
  if(!p) throw Error('Unknown math activity');

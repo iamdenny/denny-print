@@ -1,8 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { mathActivities, mathWorksheet } from '../src/math.js';
-test('100 arithmetic activities have reproducible, distinct, correctly solved exercises',()=>{
- assert.equal(mathActivities.length,100);assert.equal(new Set(mathActivities.map(p=>p.id)).size,100);
+test('200 arithmetic activities have reproducible, distinct, correctly solved exercises',()=>{
+ assert.equal(mathActivities.length,200);assert.equal(new Set(mathActivities.map(p=>p.id)).size,200);
  for(const p of mathActivities){
   for(let i=0;i<4;i++) assert.ok(p.title[i]&&p.how[i]);
   for(const seed of [1,42,999999]){

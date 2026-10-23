@@ -370,7 +370,7 @@ await writeFile(
 );
 await writeFile(
   "dist/sitemap.xml",
-  `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${pages.map((p) => `<url><loc>${p.url}</loc>${p.alternates.map((l) => `<xhtml:link rel="alternate" hreflang="${l}" href="${url(l, p.path)}"/>`).join("")}<xhtml:link rel="alternate" hreflang="x-default" href="${url("en", p.path)}"/><lastmod>2026-10-23</lastmod></url>`).join("")}</urlset>`,
+  `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${pages.map((p) => `<url><loc>${p.url}</loc>${p.alternates.map((l) => `<xhtml:link rel="alternate" hreflang="${l}" href="${url(l, p.path)}"/>`).join("")}<xhtml:link rel="alternate" hreflang="x-default" href="${url("en", p.path)}"/><lastmod>2026-10-24</lastmod></url>`).join("")}</urlset>`,
 );
 await writeFile(
   "dist/robots.txt",

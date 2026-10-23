@@ -66,5 +66,5 @@ for (const url of urls) {
 console.log("Reciprocal hreflang and localized canonical audit passed");
 
 const { activities } = JSON.parse(await readFile("dist/activity-manifest.json", "utf8"));
-assert(activities.length === 203, "50 unique activities, excluding translations");
+assert(activities.length === 303, "50 unique activities, excluding translations");
 assert.equal(new Set(activities).size, activities.length);
