@@ -28,3 +28,9 @@ test('200 arithmetic activities have reproducible, distinct, correctly solved ex
  }
  assert.throws(()=>mathWorksheet('missing'));
 });
+
+test('every arithmetic selector label has all four localized messages',async()=>{
+ const {readFile}=await import('node:fs/promises');
+ const messages=JSON.parse(await readFile(new URL('../src/messages.json',import.meta.url),'utf8'));
+ for(const p of mathActivities)for(const [i,lang] of ['en','ko','ja','es'].entries())assert.equal(messages[p.title[0]][lang],p.title[i]);
+});

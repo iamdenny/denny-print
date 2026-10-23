@@ -2146,5 +2146,605 @@
     "ko": "정답이 있는 수학 활동지, 빙고, 미로, 영어 단어찾기를 만드세요. 브라우저에서 수정하고 공유하고 인쇄할 수 있습니다.",
     "ja": "解答付き算数プリント、ビンゴ、迷路、英単語探しを作成。ブラウザで編集・共有・印刷できます。",
     "es": "Crea fichas de matemáticas con respuestas, bingo, laberintos y sopas de letras en inglés. Edita, comparte e imprime en el navegador."
+  },
+  "Adding 11": {
+    "en": "Adding 11",
+    "ko": "11 더하기",
+    "ja": "11を足す",
+    "es": "Sumar 11"
+  },
+  "Adding 12": {
+    "en": "Adding 12",
+    "ko": "12 더하기",
+    "ja": "12を足す",
+    "es": "Sumar 12"
+  },
+  "Adding 13": {
+    "en": "Adding 13",
+    "ko": "13 더하기",
+    "ja": "13を足す",
+    "es": "Sumar 13"
+  },
+  "Adding 14": {
+    "en": "Adding 14",
+    "ko": "14 더하기",
+    "ja": "14を足す",
+    "es": "Sumar 14"
+  },
+  "Adding 15": {
+    "en": "Adding 15",
+    "ko": "15 더하기",
+    "ja": "15を足す",
+    "es": "Sumar 15"
+  },
+  "Adding 16": {
+    "en": "Adding 16",
+    "ko": "16 더하기",
+    "ja": "16を足す",
+    "es": "Sumar 16"
+  },
+  "Adding 17": {
+    "en": "Adding 17",
+    "ko": "17 더하기",
+    "ja": "17を足す",
+    "es": "Sumar 17"
+  },
+  "Adding 18": {
+    "en": "Adding 18",
+    "ko": "18 더하기",
+    "ja": "18を足す",
+    "es": "Sumar 18"
+  },
+  "Adding 19": {
+    "en": "Adding 19",
+    "ko": "19 더하기",
+    "ja": "19を足す",
+    "es": "Sumar 19"
+  },
+  "Adding 20": {
+    "en": "Adding 20",
+    "ko": "20 더하기",
+    "ja": "20を足す",
+    "es": "Sumar 20"
+  },
+  "Subtracting 11": {
+    "en": "Subtracting 11",
+    "ko": "11 빼기",
+    "ja": "11を引く",
+    "es": "Restar 11"
+  },
+  "Subtracting 12": {
+    "en": "Subtracting 12",
+    "ko": "12 빼기",
+    "ja": "12を引く",
+    "es": "Restar 12"
+  },
+  "Subtracting 13": {
+    "en": "Subtracting 13",
+    "ko": "13 빼기",
+    "ja": "13を引く",
+    "es": "Restar 13"
+  },
+  "Subtracting 14": {
+    "en": "Subtracting 14",
+    "ko": "14 빼기",
+    "ja": "14を引く",
+    "es": "Restar 14"
+  },
+  "Subtracting 15": {
+    "en": "Subtracting 15",
+    "ko": "15 빼기",
+    "ja": "15を引く",
+    "es": "Restar 15"
+  },
+  "Subtracting 16": {
+    "en": "Subtracting 16",
+    "ko": "16 빼기",
+    "ja": "16を引く",
+    "es": "Restar 16"
+  },
+  "Subtracting 17": {
+    "en": "Subtracting 17",
+    "ko": "17 빼기",
+    "ja": "17を引く",
+    "es": "Restar 17"
+  },
+  "Subtracting 18": {
+    "en": "Subtracting 18",
+    "ko": "18 빼기",
+    "ja": "18を引く",
+    "es": "Restar 18"
+  },
+  "Subtracting 19": {
+    "en": "Subtracting 19",
+    "ko": "19 빼기",
+    "ja": "19を引く",
+    "es": "Restar 19"
+  },
+  "Subtracting 20": {
+    "en": "Subtracting 20",
+    "ko": "20 빼기",
+    "ja": "20を引く",
+    "es": "Restar 20"
+  },
+  "Extended 12 times table": {
+    "en": "Extended 12 times table",
+    "ko": "12단 확장 곱셈",
+    "ja": "12の段の発展練習",
+    "es": "Tabla ampliada del 12"
+  },
+  "Extended 13 times table": {
+    "en": "Extended 13 times table",
+    "ko": "13단 확장 곱셈",
+    "ja": "13の段の発展練習",
+    "es": "Tabla ampliada del 13"
+  },
+  "Extended 14 times table": {
+    "en": "Extended 14 times table",
+    "ko": "14단 확장 곱셈",
+    "ja": "14の段の発展練習",
+    "es": "Tabla ampliada del 14"
+  },
+  "Extended 15 times table": {
+    "en": "Extended 15 times table",
+    "ko": "15단 확장 곱셈",
+    "ja": "15の段の発展練習",
+    "es": "Tabla ampliada del 15"
+  },
+  "Extended 16 times table": {
+    "en": "Extended 16 times table",
+    "ko": "16단 확장 곱셈",
+    "ja": "16の段の発展練習",
+    "es": "Tabla ampliada del 16"
+  },
+  "Extended 17 times table": {
+    "en": "Extended 17 times table",
+    "ko": "17단 확장 곱셈",
+    "ja": "17の段の発展練習",
+    "es": "Tabla ampliada del 17"
+  },
+  "Extended 18 times table": {
+    "en": "Extended 18 times table",
+    "ko": "18단 확장 곱셈",
+    "ja": "18の段の発展練習",
+    "es": "Tabla ampliada del 18"
+  },
+  "Extended 19 times table": {
+    "en": "Extended 19 times table",
+    "ko": "19단 확장 곱셈",
+    "ja": "19の段の発展練習",
+    "es": "Tabla ampliada del 19"
+  },
+  "Extended 20 times table": {
+    "en": "Extended 20 times table",
+    "ko": "20단 확장 곱셈",
+    "ja": "20の段の発展練習",
+    "es": "Tabla ampliada del 20"
+  },
+  "Extended 21 times table": {
+    "en": "Extended 21 times table",
+    "ko": "21단 확장 곱셈",
+    "ja": "21の段の発展練習",
+    "es": "Tabla ampliada del 21"
+  },
+  "Dividing by 12": {
+    "en": "Dividing by 12",
+    "ko": "나누는 수 12",
+    "ja": "12で割る",
+    "es": "Dividir entre 12"
+  },
+  "Dividing by 13": {
+    "en": "Dividing by 13",
+    "ko": "나누는 수 13",
+    "ja": "13で割る",
+    "es": "Dividir entre 13"
+  },
+  "Dividing by 14": {
+    "en": "Dividing by 14",
+    "ko": "나누는 수 14",
+    "ja": "14で割る",
+    "es": "Dividir entre 14"
+  },
+  "Dividing by 15": {
+    "en": "Dividing by 15",
+    "ko": "나누는 수 15",
+    "ja": "15で割る",
+    "es": "Dividir entre 15"
+  },
+  "Dividing by 16": {
+    "en": "Dividing by 16",
+    "ko": "나누는 수 16",
+    "ja": "16で割る",
+    "es": "Dividir entre 16"
+  },
+  "Dividing by 17": {
+    "en": "Dividing by 17",
+    "ko": "나누는 수 17",
+    "ja": "17で割る",
+    "es": "Dividir entre 17"
+  },
+  "Dividing by 18": {
+    "en": "Dividing by 18",
+    "ko": "나누는 수 18",
+    "ja": "18で割る",
+    "es": "Dividir entre 18"
+  },
+  "Dividing by 19": {
+    "en": "Dividing by 19",
+    "ko": "나누는 수 19",
+    "ja": "19で割る",
+    "es": "Dividir entre 19"
+  },
+  "Dividing by 20": {
+    "en": "Dividing by 20",
+    "ko": "나누는 수 20",
+    "ja": "20で割る",
+    "es": "Dividir entre 20"
+  },
+  "Dividing by 21": {
+    "en": "Dividing by 21",
+    "ko": "나누는 수 21",
+    "ja": "21で割る",
+    "es": "Dividir entre 21"
+  },
+  "Missing addends with 11": {
+    "en": "Missing addends with 11",
+    "ko": "11 더하기 빈칸",
+    "ja": "11を足す空欄問題",
+    "es": "Sumando que falta con 11"
+  },
+  "Missing addends with 12": {
+    "en": "Missing addends with 12",
+    "ko": "12 더하기 빈칸",
+    "ja": "12を足す空欄問題",
+    "es": "Sumando que falta con 12"
+  },
+  "Missing addends with 13": {
+    "en": "Missing addends with 13",
+    "ko": "13 더하기 빈칸",
+    "ja": "13を足す空欄問題",
+    "es": "Sumando que falta con 13"
+  },
+  "Missing addends with 14": {
+    "en": "Missing addends with 14",
+    "ko": "14 더하기 빈칸",
+    "ja": "14を足す空欄問題",
+    "es": "Sumando que falta con 14"
+  },
+  "Missing addends with 15": {
+    "en": "Missing addends with 15",
+    "ko": "15 더하기 빈칸",
+    "ja": "15を足す空欄問題",
+    "es": "Sumando que falta con 15"
+  },
+  "Missing addends with 16": {
+    "en": "Missing addends with 16",
+    "ko": "16 더하기 빈칸",
+    "ja": "16を足す空欄問題",
+    "es": "Sumando que falta con 16"
+  },
+  "Missing addends with 17": {
+    "en": "Missing addends with 17",
+    "ko": "17 더하기 빈칸",
+    "ja": "17を足す空欄問題",
+    "es": "Sumando que falta con 17"
+  },
+  "Missing addends with 18": {
+    "en": "Missing addends with 18",
+    "ko": "18 더하기 빈칸",
+    "ja": "18を足す空欄問題",
+    "es": "Sumando que falta con 18"
+  },
+  "Missing addends with 19": {
+    "en": "Missing addends with 19",
+    "ko": "19 더하기 빈칸",
+    "ja": "19を足す空欄問題",
+    "es": "Sumando que falta con 19"
+  },
+  "Missing addends with 20": {
+    "en": "Missing addends with 20",
+    "ko": "20 더하기 빈칸",
+    "ja": "20を足す空欄問題",
+    "es": "Sumando que falta con 20"
+  },
+  "Missing minuends with 11": {
+    "en": "Missing minuends with 11",
+    "ko": "11 빼기 시작 수 찾기",
+    "ja": "11を引く前の数",
+    "es": "Minuendo que falta con 11"
+  },
+  "Missing minuends with 12": {
+    "en": "Missing minuends with 12",
+    "ko": "12 빼기 시작 수 찾기",
+    "ja": "12を引く前の数",
+    "es": "Minuendo que falta con 12"
+  },
+  "Missing minuends with 13": {
+    "en": "Missing minuends with 13",
+    "ko": "13 빼기 시작 수 찾기",
+    "ja": "13を引く前の数",
+    "es": "Minuendo que falta con 13"
+  },
+  "Missing minuends with 14": {
+    "en": "Missing minuends with 14",
+    "ko": "14 빼기 시작 수 찾기",
+    "ja": "14を引く前の数",
+    "es": "Minuendo que falta con 14"
+  },
+  "Missing minuends with 15": {
+    "en": "Missing minuends with 15",
+    "ko": "15 빼기 시작 수 찾기",
+    "ja": "15を引く前の数",
+    "es": "Minuendo que falta con 15"
+  },
+  "Missing minuends with 16": {
+    "en": "Missing minuends with 16",
+    "ko": "16 빼기 시작 수 찾기",
+    "ja": "16を引く前の数",
+    "es": "Minuendo que falta con 16"
+  },
+  "Missing minuends with 17": {
+    "en": "Missing minuends with 17",
+    "ko": "17 빼기 시작 수 찾기",
+    "ja": "17を引く前の数",
+    "es": "Minuendo que falta con 17"
+  },
+  "Missing minuends with 18": {
+    "en": "Missing minuends with 18",
+    "ko": "18 빼기 시작 수 찾기",
+    "ja": "18を引く前の数",
+    "es": "Minuendo que falta con 18"
+  },
+  "Missing minuends with 19": {
+    "en": "Missing minuends with 19",
+    "ko": "19 빼기 시작 수 찾기",
+    "ja": "19を引く前の数",
+    "es": "Minuendo que falta con 19"
+  },
+  "Missing minuends with 20": {
+    "en": "Missing minuends with 20",
+    "ko": "20 빼기 시작 수 찾기",
+    "ja": "20を引く前の数",
+    "es": "Minuendo que falta con 20"
+  },
+  "Missing factors in table 12": {
+    "en": "Missing factors in table 12",
+    "ko": "12단 곱하는 수 찾기",
+    "ja": "12の段の空欄",
+    "es": "Factor que falta: tabla del 12"
+  },
+  "Missing factors in table 13": {
+    "en": "Missing factors in table 13",
+    "ko": "13단 곱하는 수 찾기",
+    "ja": "13の段の空欄",
+    "es": "Factor que falta: tabla del 13"
+  },
+  "Missing factors in table 14": {
+    "en": "Missing factors in table 14",
+    "ko": "14단 곱하는 수 찾기",
+    "ja": "14の段の空欄",
+    "es": "Factor que falta: tabla del 14"
+  },
+  "Missing factors in table 15": {
+    "en": "Missing factors in table 15",
+    "ko": "15단 곱하는 수 찾기",
+    "ja": "15の段の空欄",
+    "es": "Factor que falta: tabla del 15"
+  },
+  "Missing factors in table 16": {
+    "en": "Missing factors in table 16",
+    "ko": "16단 곱하는 수 찾기",
+    "ja": "16の段の空欄",
+    "es": "Factor que falta: tabla del 16"
+  },
+  "Missing factors in table 17": {
+    "en": "Missing factors in table 17",
+    "ko": "17단 곱하는 수 찾기",
+    "ja": "17の段の空欄",
+    "es": "Factor que falta: tabla del 17"
+  },
+  "Missing factors in table 18": {
+    "en": "Missing factors in table 18",
+    "ko": "18단 곱하는 수 찾기",
+    "ja": "18の段の空欄",
+    "es": "Factor que falta: tabla del 18"
+  },
+  "Missing factors in table 19": {
+    "en": "Missing factors in table 19",
+    "ko": "19단 곱하는 수 찾기",
+    "ja": "19の段の空欄",
+    "es": "Factor que falta: tabla del 19"
+  },
+  "Missing factors in table 20": {
+    "en": "Missing factors in table 20",
+    "ko": "20단 곱하는 수 찾기",
+    "ja": "20の段の空欄",
+    "es": "Factor que falta: tabla del 20"
+  },
+  "Missing factors in table 21": {
+    "en": "Missing factors in table 21",
+    "ko": "21단 곱하는 수 찾기",
+    "ja": "21の段の空欄",
+    "es": "Factor que falta: tabla del 21"
+  },
+  "Compare numbers up to 110": {
+    "en": "Compare numbers up to 110",
+    "ko": "110까지 수 비교",
+    "ja": "110までの数比べ",
+    "es": "Comparar números hasta 110"
+  },
+  "Compare numbers up to 120": {
+    "en": "Compare numbers up to 120",
+    "ko": "120까지 수 비교",
+    "ja": "120までの数比べ",
+    "es": "Comparar números hasta 120"
+  },
+  "Compare numbers up to 130": {
+    "en": "Compare numbers up to 130",
+    "ko": "130까지 수 비교",
+    "ja": "130までの数比べ",
+    "es": "Comparar números hasta 130"
+  },
+  "Compare numbers up to 140": {
+    "en": "Compare numbers up to 140",
+    "ko": "140까지 수 비교",
+    "ja": "140までの数比べ",
+    "es": "Comparar números hasta 140"
+  },
+  "Compare numbers up to 150": {
+    "en": "Compare numbers up to 150",
+    "ko": "150까지 수 비교",
+    "ja": "150までの数比べ",
+    "es": "Comparar números hasta 150"
+  },
+  "Compare numbers up to 160": {
+    "en": "Compare numbers up to 160",
+    "ko": "160까지 수 비교",
+    "ja": "160までの数比べ",
+    "es": "Comparar números hasta 160"
+  },
+  "Compare numbers up to 170": {
+    "en": "Compare numbers up to 170",
+    "ko": "170까지 수 비교",
+    "ja": "170までの数比べ",
+    "es": "Comparar números hasta 170"
+  },
+  "Compare numbers up to 180": {
+    "en": "Compare numbers up to 180",
+    "ko": "180까지 수 비교",
+    "ja": "180までの数比べ",
+    "es": "Comparar números hasta 180"
+  },
+  "Compare numbers up to 190": {
+    "en": "Compare numbers up to 190",
+    "ko": "190까지 수 비교",
+    "ja": "190までの数比べ",
+    "es": "Comparar números hasta 190"
+  },
+  "Compare numbers up to 200": {
+    "en": "Compare numbers up to 200",
+    "ko": "200까지 수 비교",
+    "ja": "200までの数比べ",
+    "es": "Comparar números hasta 200"
+  },
+  "Skip counting by 12": {
+    "en": "Skip counting by 12",
+    "ko": "12씩 뛰어 세기",
+    "ja": "12ずつ数える",
+    "es": "Contar de 12 en 12"
+  },
+  "Skip counting by 13": {
+    "en": "Skip counting by 13",
+    "ko": "13씩 뛰어 세기",
+    "ja": "13ずつ数える",
+    "es": "Contar de 13 en 13"
+  },
+  "Skip counting by 14": {
+    "en": "Skip counting by 14",
+    "ko": "14씩 뛰어 세기",
+    "ja": "14ずつ数える",
+    "es": "Contar de 14 en 14"
+  },
+  "Skip counting by 15": {
+    "en": "Skip counting by 15",
+    "ko": "15씩 뛰어 세기",
+    "ja": "15ずつ数える",
+    "es": "Contar de 15 en 15"
+  },
+  "Skip counting by 16": {
+    "en": "Skip counting by 16",
+    "ko": "16씩 뛰어 세기",
+    "ja": "16ずつ数える",
+    "es": "Contar de 16 en 16"
+  },
+  "Skip counting by 17": {
+    "en": "Skip counting by 17",
+    "ko": "17씩 뛰어 세기",
+    "ja": "17ずつ数える",
+    "es": "Contar de 17 en 17"
+  },
+  "Skip counting by 18": {
+    "en": "Skip counting by 18",
+    "ko": "18씩 뛰어 세기",
+    "ja": "18ずつ数える",
+    "es": "Contar de 18 en 18"
+  },
+  "Skip counting by 19": {
+    "en": "Skip counting by 19",
+    "ko": "19씩 뛰어 세기",
+    "ja": "19ずつ数える",
+    "es": "Contar de 19 en 19"
+  },
+  "Skip counting by 20": {
+    "en": "Skip counting by 20",
+    "ko": "20씩 뛰어 세기",
+    "ja": "20ずつ数える",
+    "es": "Contar de 20 en 20"
+  },
+  "Skip counting by 21": {
+    "en": "Skip counting by 21",
+    "ko": "21씩 뛰어 세기",
+    "ja": "21ずつ数える",
+    "es": "Contar de 21 en 21"
+  },
+  "One over 12 of a quantity": {
+    "en": "One over 12 of a quantity",
+    "ko": "수량의 12분의 1",
+    "ja": "数量の12分の1",
+    "es": "1/12 de una cantidad"
+  },
+  "One over 13 of a quantity": {
+    "en": "One over 13 of a quantity",
+    "ko": "수량의 13분의 1",
+    "ja": "数量の13分の1",
+    "es": "1/13 de una cantidad"
+  },
+  "One over 14 of a quantity": {
+    "en": "One over 14 of a quantity",
+    "ko": "수량의 14분의 1",
+    "ja": "数量の14分の1",
+    "es": "1/14 de una cantidad"
+  },
+  "One over 15 of a quantity": {
+    "en": "One over 15 of a quantity",
+    "ko": "수량의 15분의 1",
+    "ja": "数量の15分の1",
+    "es": "1/15 de una cantidad"
+  },
+  "One over 16 of a quantity": {
+    "en": "One over 16 of a quantity",
+    "ko": "수량의 16분의 1",
+    "ja": "数量の16分の1",
+    "es": "1/16 de una cantidad"
+  },
+  "One over 17 of a quantity": {
+    "en": "One over 17 of a quantity",
+    "ko": "수량의 17분의 1",
+    "ja": "数量の17分の1",
+    "es": "1/17 de una cantidad"
+  },
+  "One over 18 of a quantity": {
+    "en": "One over 18 of a quantity",
+    "ko": "수량의 18분의 1",
+    "ja": "数量の18分の1",
+    "es": "1/18 de una cantidad"
+  },
+  "One over 19 of a quantity": {
+    "en": "One over 19 of a quantity",
+    "ko": "수량의 19분의 1",
+    "ja": "数量の19分の1",
+    "es": "1/19 de una cantidad"
+  },
+  "One over 20 of a quantity": {
+    "en": "One over 20 of a quantity",
+    "ko": "수량의 20분의 1",
+    "ja": "数量の20分の1",
+    "es": "1/20 de una cantidad"
+  },
+  "One over 21 of a quantity": {
+    "en": "One over 21 of a quantity",
+    "ko": "수량의 21분의 1",
+    "ja": "数量の21分の1",
+    "es": "1/21 de una cantidad"
   }
 }
