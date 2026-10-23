@@ -704,7 +704,7 @@ textarea:focus-visible {
   }
   .page-layout .ad-placement {
     position: static;
-    order: -2;
+    order: -1;
     align-self: center;
     margin: 0 auto;
     width: 300px;
@@ -778,3 +778,8 @@ textarea:focus-visible {
 .discovery details { padding:16px 0; border-top:1px solid #d9ded6; }
 .discovery summary { cursor:pointer; font-weight:600; }
 .discovery p { line-height:1.8; max-width:75ch; }
+
+/* On small screens, let visitors use the tool before the full ad unit. */
+@media (max-width: 900px) {
+  .page-content > #play, .page-content > .focus-flag { order: -2; }
+}
