@@ -769,3 +769,12 @@ textarea:focus-visible {
 .service-promo img { display: block; width: 100%; height: auto; max-height: 260px; object-fit: contain; }
 @media (max-width: 600px) { .service-promo a { max-width: 320px; } }
 @media print { .service-promo { display: none !important; } }
+
+.discovery { margin-block: 2rem; padding: clamp(16px,3vw,32px); border: 1px solid #d9ded6; border-radius: 18px; }
+.discovery-links { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr)); gap:12px; margin-block:20px 28px; }
+.discovery-links a { display:block; padding:16px; border:1px solid #d9ded6; border-radius:12px; text-decoration:none; font-weight:600; }
+.discovery-links a:hover { background:#e7efe7; }
+.discovery-links a:focus-visible,.discovery summary:focus-visible { outline:3px solid #216d58; outline-offset:4px; }
+.discovery details { padding:16px 0; border-top:1px solid #d9ded6; }
+.discovery summary { cursor:pointer; font-weight:600; }
+.discovery p { line-height:1.8; max-width:75ch; }

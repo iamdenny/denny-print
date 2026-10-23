@@ -1,3 +1,4 @@
+import { discovery, related } from "./discovery.mjs";
 import { services, destination, artwork } from "../src/service-promo.js";
 import { readFile, writeFile, mkdir, cp, rm } from "node:fs/promises";
 import { execFileSync } from "node:child_process";
@@ -265,6 +266,7 @@ for (const lang of langs) {
     t(descKey),
     hero(t(titleKey), t(descKey)) +
       tool(s.slug, t, defaultPreset) +
+      discovery(s.slug,lang,items,p=>local(lang,p.path)) +
       `<section class="info"><h2>${t("All activities")}</h2>${cards(items.slice(0, 9))}<p><a class="button" href="${local(lang, "activities/")}">${t("All activities")} (${items.length}) →</a></p></section>`,
     defaultPreset,
   );
@@ -276,7 +278,7 @@ for (const lang of langs) {
       p.desc,
       hero(p.title, p.desc) +
         tool(s.slug, t, p.preset) +
-        `<article class="info">${p.body}<p class="muted">${t("Updated 22 October 2026 · Denny Lim")}</p><h2>${t("Related activities")}</h2>${cards(items.filter((x) => x.path !== p.path && x.path.split("/")[0] === p.path.split("/")[0]).slice(0, 6))}</article>`,
+        `<article class="info">${p.body}<p class="muted">${t("Updated 22 October 2026 · Denny Lim")}</p><h2>${t("Related activities")}</h2>${cards(related(items,p,6))}</article>`,
       p.preset,
     );
   await emit(

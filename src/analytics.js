@@ -102,6 +102,7 @@ if (typeof document !== "undefined") {
     });
   document.addEventListener("click", (e) => {
     if (choice !== "granted" || !loaded) return;
+    if (e.target.closest("[data-discovery-link]")) send("event", "select_discovery", { page_location: safePage(location.href), language: document.documentElement.lang });
     const b = e.target.closest("button");
     if (!b) return;
     const actions = {
