@@ -1,0 +1,37 @@
+[
+  {
+    "file": "denny-games-en-970x250.png",
+    "source": "https://games.iamdenny.com/promo/denny-games-en-970x250.png",
+    "sha256": "e261ed24b6e06bfb36775406d43f77375305e75b77f4e4759c9050ce44782302"
+  },
+  {
+    "file": "denny-games-en-320x100.png",
+    "source": "https://games.iamdenny.com/promo/denny-games-en-320x100.png",
+    "sha256": "87db0fbc100acb6df4122de8dc45d34d32fac69b614feb1d5bdb95c06ba5d790"
+  },
+  {
+    "file": "denny-games-ko-970x250.png",
+    "source": "https://games.iamdenny.com/promo/denny-games-ko-970x250.png",
+    "sha256": "22c0a78dc5cceeb09e1b2f1083a38731a8d0bc54112e2adeaec9b7f31e741b8f"
+  },
+  {
+    "file": "denny-games-ko-320x100.png",
+    "source": "https://games.iamdenny.com/promo/denny-games-ko-320x100.png",
+    "sha256": "61c7451dd08e052b981b3751c180a8df3d7135d4a3f6255d293a3cc589029176"
+  },
+  {
+    "file": "modutt-wide-light.svg",
+    "source": "https://modutt.kr/brand/modutt-wide-light.svg",
+    "sha256": "8de9cc0d3acd8f80642539a4bd282230b81e2872557def13c465d43987f8187b"
+  },
+  {
+    "file": "modutt-mobile-light.svg",
+    "source": "https://modutt.kr/brand/modutt-mobile-light.svg",
+    "sha256": "a6c8a2d6a285be01a1f91472d911a4ae3512b558581375083f10009f42388694"
+  },
+  {
+    "file": "everyday-tools-ko-banner-1500x500.png",
+    "source": "https://tools.iamdenny.com/promo-assets/2026-10/everyday-tools-ko-banner-1500x500.png",
+    "sha256": "195c02a14097e277a8684411bd1f5a6a5d8ff089f202bcc711872f56dfa48551"
+  }
+]
