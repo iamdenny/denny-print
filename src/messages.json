@@ -1414,5 +1414,737 @@
     "ko": "캠핑 & 날씨",
     "ja": "キャンプ & 天気",
     "es": "Acampada & Tiempo"
+  },
+  "Math": {
+    "en": "Math",
+    "ko": "수학",
+    "ja": "算数",
+    "es": "Matemáticas"
+  },
+  "Math activity": {
+    "en": "Math activity",
+    "ko": "수학 활동",
+    "ja": "算数の活動",
+    "es": "Actividad matemática"
+  },
+  "Name": {
+    "en": "Name",
+    "ko": "이름",
+    "ja": "名前",
+    "es": "Nombre"
+  },
+  "Date": {
+    "en": "Date",
+    "ko": "날짜",
+    "ja": "日付",
+    "es": "Fecha"
+  },
+  "Learning goal": {
+    "en": "Learning goal",
+    "ko": "학습 목표",
+    "ja": "学習の目標",
+    "es": "Objetivo"
+  },
+  "Sample exercises": {
+    "en": "Sample exercises",
+    "ko": "예제 문제",
+    "ja": "問題例",
+    "es": "Ejercicios de ejemplo"
+  },
+  "Answer": {
+    "en": "Answer",
+    "ko": "정답",
+    "ja": "答え",
+    "es": "Respuesta"
+  },
+  "{name} · printable math worksheet": {
+    "en": "{name} · printable math worksheet",
+    "ko": "{name} · 인쇄용 수학 활동지",
+    "ja": "{name} · 印刷用算数プリント",
+    "es": "{name} · ficha imprimible"
+  },
+  "{name}: 24 distinct exercises with a separate answer view. Change the edition, print up to 12 sheets and share the settings.": {
+    "en": "{name}: 24 distinct exercises with a separate answer view. Change the edition, print up to 12 sheets and share the settings.",
+    "ko": "{name}: 서로 다른 24문제와 정답 보기를 제공합니다. 판을 바꾸고 최대 12장을 인쇄하거나 설정을 공유하세요.",
+    "ja": "{name}：異なる24問と答え表示。版を変えて最大12枚を印刷し、設定を共有できます。",
+    "es": "{name}: 24 ejercicios diferentes con respuestas separadas. Cambia la edición, imprime hasta 12 hojas y comparte la configuración."
+  },
+  "Print the question sheet before revealing answers. A new edition changes the exercise selection and order, while keeping the same learning goal.": {
+    "en": "Print the question sheet before revealing answers. A new edition changes the exercise selection and order, while keeping the same learning goal.",
+    "ko": "정답을 표시하기 전에 문제지를 인쇄하세요. 판을 바꾸면 학습 목표는 유지하면서 문제 선택과 순서가 바뀝니다.",
+    "ja": "答えを表示する前に問題を印刷しましょう。版を変えると学習目標は同じまま、問題の選択と順序が変わります。",
+    "es": "Imprime las preguntas antes de mostrar las respuestas. Otra edición cambia la selección y el orden, manteniendo el objetivo."
+  },
+  "Adding 1": {
+    "en": "Adding 1",
+    "ko": "1 더하기",
+    "ja": "1を足す",
+    "es": "Sumar 1"
+  },
+  "Adding 2": {
+    "en": "Adding 2",
+    "ko": "2 더하기",
+    "ja": "2を足す",
+    "es": "Sumar 2"
+  },
+  "Adding 3": {
+    "en": "Adding 3",
+    "ko": "3 더하기",
+    "ja": "3を足す",
+    "es": "Sumar 3"
+  },
+  "Adding 4": {
+    "en": "Adding 4",
+    "ko": "4 더하기",
+    "ja": "4を足す",
+    "es": "Sumar 4"
+  },
+  "Adding 5": {
+    "en": "Adding 5",
+    "ko": "5 더하기",
+    "ja": "5を足す",
+    "es": "Sumar 5"
+  },
+  "Adding 6": {
+    "en": "Adding 6",
+    "ko": "6 더하기",
+    "ja": "6を足す",
+    "es": "Sumar 6"
+  },
+  "Adding 7": {
+    "en": "Adding 7",
+    "ko": "7 더하기",
+    "ja": "7を足す",
+    "es": "Sumar 7"
+  },
+  "Adding 8": {
+    "en": "Adding 8",
+    "ko": "8 더하기",
+    "ja": "8を足す",
+    "es": "Sumar 8"
+  },
+  "Adding 9": {
+    "en": "Adding 9",
+    "ko": "9 더하기",
+    "ja": "9を足す",
+    "es": "Sumar 9"
+  },
+  "Adding 10": {
+    "en": "Adding 10",
+    "ko": "10 더하기",
+    "ja": "10を足す",
+    "es": "Sumar 10"
+  },
+  "Subtracting 1": {
+    "en": "Subtracting 1",
+    "ko": "1 빼기",
+    "ja": "1を引く",
+    "es": "Restar 1"
+  },
+  "Subtracting 2": {
+    "en": "Subtracting 2",
+    "ko": "2 빼기",
+    "ja": "2を引く",
+    "es": "Restar 2"
+  },
+  "Subtracting 3": {
+    "en": "Subtracting 3",
+    "ko": "3 빼기",
+    "ja": "3を引く",
+    "es": "Restar 3"
+  },
+  "Subtracting 4": {
+    "en": "Subtracting 4",
+    "ko": "4 빼기",
+    "ja": "4を引く",
+    "es": "Restar 4"
+  },
+  "Subtracting 5": {
+    "en": "Subtracting 5",
+    "ko": "5 빼기",
+    "ja": "5を引く",
+    "es": "Restar 5"
+  },
+  "Subtracting 6": {
+    "en": "Subtracting 6",
+    "ko": "6 빼기",
+    "ja": "6を引く",
+    "es": "Restar 6"
+  },
+  "Subtracting 7": {
+    "en": "Subtracting 7",
+    "ko": "7 빼기",
+    "ja": "7を引く",
+    "es": "Restar 7"
+  },
+  "Subtracting 8": {
+    "en": "Subtracting 8",
+    "ko": "8 빼기",
+    "ja": "8を引く",
+    "es": "Restar 8"
+  },
+  "Subtracting 9": {
+    "en": "Subtracting 9",
+    "ko": "9 빼기",
+    "ja": "9を引く",
+    "es": "Restar 9"
+  },
+  "Subtracting 10": {
+    "en": "Subtracting 10",
+    "ko": "10 빼기",
+    "ja": "10を引く",
+    "es": "Restar 10"
+  },
+  "2 times table": {
+    "en": "2 times table",
+    "ko": "2단 곱셈",
+    "ja": "2の段のかけ算",
+    "es": "Tabla del 2"
+  },
+  "3 times table": {
+    "en": "3 times table",
+    "ko": "3단 곱셈",
+    "ja": "3の段のかけ算",
+    "es": "Tabla del 3"
+  },
+  "4 times table": {
+    "en": "4 times table",
+    "ko": "4단 곱셈",
+    "ja": "4の段のかけ算",
+    "es": "Tabla del 4"
+  },
+  "5 times table": {
+    "en": "5 times table",
+    "ko": "5단 곱셈",
+    "ja": "5の段のかけ算",
+    "es": "Tabla del 5"
+  },
+  "6 times table": {
+    "en": "6 times table",
+    "ko": "6단 곱셈",
+    "ja": "6の段のかけ算",
+    "es": "Tabla del 6"
+  },
+  "7 times table": {
+    "en": "7 times table",
+    "ko": "7단 곱셈",
+    "ja": "7の段のかけ算",
+    "es": "Tabla del 7"
+  },
+  "8 times table": {
+    "en": "8 times table",
+    "ko": "8단 곱셈",
+    "ja": "8の段のかけ算",
+    "es": "Tabla del 8"
+  },
+  "9 times table": {
+    "en": "9 times table",
+    "ko": "9단 곱셈",
+    "ja": "9の段のかけ算",
+    "es": "Tabla del 9"
+  },
+  "10 times table": {
+    "en": "10 times table",
+    "ko": "10단 곱셈",
+    "ja": "10の段のかけ算",
+    "es": "Tabla del 10"
+  },
+  "11 times table": {
+    "en": "11 times table",
+    "ko": "11단 곱셈",
+    "ja": "11の段のかけ算",
+    "es": "Tabla del 11"
+  },
+  "Dividing by 2": {
+    "en": "Dividing by 2",
+    "ko": "나누는 수 2",
+    "ja": "2で割る",
+    "es": "Dividir entre 2"
+  },
+  "Dividing by 3": {
+    "en": "Dividing by 3",
+    "ko": "나누는 수 3",
+    "ja": "3で割る",
+    "es": "Dividir entre 3"
+  },
+  "Dividing by 4": {
+    "en": "Dividing by 4",
+    "ko": "나누는 수 4",
+    "ja": "4で割る",
+    "es": "Dividir entre 4"
+  },
+  "Dividing by 5": {
+    "en": "Dividing by 5",
+    "ko": "나누는 수 5",
+    "ja": "5で割る",
+    "es": "Dividir entre 5"
+  },
+  "Dividing by 6": {
+    "en": "Dividing by 6",
+    "ko": "나누는 수 6",
+    "ja": "6で割る",
+    "es": "Dividir entre 6"
+  },
+  "Dividing by 7": {
+    "en": "Dividing by 7",
+    "ko": "나누는 수 7",
+    "ja": "7で割る",
+    "es": "Dividir entre 7"
+  },
+  "Dividing by 8": {
+    "en": "Dividing by 8",
+    "ko": "나누는 수 8",
+    "ja": "8で割る",
+    "es": "Dividir entre 8"
+  },
+  "Dividing by 9": {
+    "en": "Dividing by 9",
+    "ko": "나누는 수 9",
+    "ja": "9で割る",
+    "es": "Dividir entre 9"
+  },
+  "Dividing by 10": {
+    "en": "Dividing by 10",
+    "ko": "나누는 수 10",
+    "ja": "10で割る",
+    "es": "Dividir entre 10"
+  },
+  "Dividing by 11": {
+    "en": "Dividing by 11",
+    "ko": "나누는 수 11",
+    "ja": "11で割る",
+    "es": "Dividir entre 11"
+  },
+  "Missing addends with 1": {
+    "en": "Missing addends with 1",
+    "ko": "1 더하기 빈칸",
+    "ja": "1を足す空欄問題",
+    "es": "Sumando que falta con 1"
+  },
+  "Missing addends with 2": {
+    "en": "Missing addends with 2",
+    "ko": "2 더하기 빈칸",
+    "ja": "2を足す空欄問題",
+    "es": "Sumando que falta con 2"
+  },
+  "Missing addends with 3": {
+    "en": "Missing addends with 3",
+    "ko": "3 더하기 빈칸",
+    "ja": "3を足す空欄問題",
+    "es": "Sumando que falta con 3"
+  },
+  "Missing addends with 4": {
+    "en": "Missing addends with 4",
+    "ko": "4 더하기 빈칸",
+    "ja": "4を足す空欄問題",
+    "es": "Sumando que falta con 4"
+  },
+  "Missing addends with 5": {
+    "en": "Missing addends with 5",
+    "ko": "5 더하기 빈칸",
+    "ja": "5を足す空欄問題",
+    "es": "Sumando que falta con 5"
+  },
+  "Missing addends with 6": {
+    "en": "Missing addends with 6",
+    "ko": "6 더하기 빈칸",
+    "ja": "6を足す空欄問題",
+    "es": "Sumando que falta con 6"
+  },
+  "Missing addends with 7": {
+    "en": "Missing addends with 7",
+    "ko": "7 더하기 빈칸",
+    "ja": "7を足す空欄問題",
+    "es": "Sumando que falta con 7"
+  },
+  "Missing addends with 8": {
+    "en": "Missing addends with 8",
+    "ko": "8 더하기 빈칸",
+    "ja": "8を足す空欄問題",
+    "es": "Sumando que falta con 8"
+  },
+  "Missing addends with 9": {
+    "en": "Missing addends with 9",
+    "ko": "9 더하기 빈칸",
+    "ja": "9を足す空欄問題",
+    "es": "Sumando que falta con 9"
+  },
+  "Missing addends with 10": {
+    "en": "Missing addends with 10",
+    "ko": "10 더하기 빈칸",
+    "ja": "10を足す空欄問題",
+    "es": "Sumando que falta con 10"
+  },
+  "Missing minuends with 1": {
+    "en": "Missing minuends with 1",
+    "ko": "1 빼기 시작 수 찾기",
+    "ja": "1を引く前の数",
+    "es": "Minuendo que falta con 1"
+  },
+  "Missing minuends with 2": {
+    "en": "Missing minuends with 2",
+    "ko": "2 빼기 시작 수 찾기",
+    "ja": "2を引く前の数",
+    "es": "Minuendo que falta con 2"
+  },
+  "Missing minuends with 3": {
+    "en": "Missing minuends with 3",
+    "ko": "3 빼기 시작 수 찾기",
+    "ja": "3を引く前の数",
+    "es": "Minuendo que falta con 3"
+  },
+  "Missing minuends with 4": {
+    "en": "Missing minuends with 4",
+    "ko": "4 빼기 시작 수 찾기",
+    "ja": "4を引く前の数",
+    "es": "Minuendo que falta con 4"
+  },
+  "Missing minuends with 5": {
+    "en": "Missing minuends with 5",
+    "ko": "5 빼기 시작 수 찾기",
+    "ja": "5を引く前の数",
+    "es": "Minuendo que falta con 5"
+  },
+  "Missing minuends with 6": {
+    "en": "Missing minuends with 6",
+    "ko": "6 빼기 시작 수 찾기",
+    "ja": "6を引く前の数",
+    "es": "Minuendo que falta con 6"
+  },
+  "Missing minuends with 7": {
+    "en": "Missing minuends with 7",
+    "ko": "7 빼기 시작 수 찾기",
+    "ja": "7を引く前の数",
+    "es": "Minuendo que falta con 7"
+  },
+  "Missing minuends with 8": {
+    "en": "Missing minuends with 8",
+    "ko": "8 빼기 시작 수 찾기",
+    "ja": "8を引く前の数",
+    "es": "Minuendo que falta con 8"
+  },
+  "Missing minuends with 9": {
+    "en": "Missing minuends with 9",
+    "ko": "9 빼기 시작 수 찾기",
+    "ja": "9を引く前の数",
+    "es": "Minuendo que falta con 9"
+  },
+  "Missing minuends with 10": {
+    "en": "Missing minuends with 10",
+    "ko": "10 빼기 시작 수 찾기",
+    "ja": "10を引く前の数",
+    "es": "Minuendo que falta con 10"
+  },
+  "Missing factors in table 2": {
+    "en": "Missing factors in table 2",
+    "ko": "2단 곱하는 수 찾기",
+    "ja": "2の段の空欄",
+    "es": "Factor que falta: tabla del 2"
+  },
+  "Missing factors in table 3": {
+    "en": "Missing factors in table 3",
+    "ko": "3단 곱하는 수 찾기",
+    "ja": "3の段の空欄",
+    "es": "Factor que falta: tabla del 3"
+  },
+  "Missing factors in table 4": {
+    "en": "Missing factors in table 4",
+    "ko": "4단 곱하는 수 찾기",
+    "ja": "4の段の空欄",
+    "es": "Factor que falta: tabla del 4"
+  },
+  "Missing factors in table 5": {
+    "en": "Missing factors in table 5",
+    "ko": "5단 곱하는 수 찾기",
+    "ja": "5の段の空欄",
+    "es": "Factor que falta: tabla del 5"
+  },
+  "Missing factors in table 6": {
+    "en": "Missing factors in table 6",
+    "ko": "6단 곱하는 수 찾기",
+    "ja": "6の段の空欄",
+    "es": "Factor que falta: tabla del 6"
+  },
+  "Missing factors in table 7": {
+    "en": "Missing factors in table 7",
+    "ko": "7단 곱하는 수 찾기",
+    "ja": "7の段の空欄",
+    "es": "Factor que falta: tabla del 7"
+  },
+  "Missing factors in table 8": {
+    "en": "Missing factors in table 8",
+    "ko": "8단 곱하는 수 찾기",
+    "ja": "8の段の空欄",
+    "es": "Factor que falta: tabla del 8"
+  },
+  "Missing factors in table 9": {
+    "en": "Missing factors in table 9",
+    "ko": "9단 곱하는 수 찾기",
+    "ja": "9の段の空欄",
+    "es": "Factor que falta: tabla del 9"
+  },
+  "Missing factors in table 10": {
+    "en": "Missing factors in table 10",
+    "ko": "10단 곱하는 수 찾기",
+    "ja": "10の段の空欄",
+    "es": "Factor que falta: tabla del 10"
+  },
+  "Missing factors in table 11": {
+    "en": "Missing factors in table 11",
+    "ko": "11단 곱하는 수 찾기",
+    "ja": "11の段の空欄",
+    "es": "Factor que falta: tabla del 11"
+  },
+  "Compare numbers up to 10": {
+    "en": "Compare numbers up to 10",
+    "ko": "10까지 수 비교",
+    "ja": "10までの数比べ",
+    "es": "Comparar números hasta 10"
+  },
+  "Compare numbers up to 20": {
+    "en": "Compare numbers up to 20",
+    "ko": "20까지 수 비교",
+    "ja": "20までの数比べ",
+    "es": "Comparar números hasta 20"
+  },
+  "Compare numbers up to 30": {
+    "en": "Compare numbers up to 30",
+    "ko": "30까지 수 비교",
+    "ja": "30までの数比べ",
+    "es": "Comparar números hasta 30"
+  },
+  "Compare numbers up to 40": {
+    "en": "Compare numbers up to 40",
+    "ko": "40까지 수 비교",
+    "ja": "40までの数比べ",
+    "es": "Comparar números hasta 40"
+  },
+  "Compare numbers up to 50": {
+    "en": "Compare numbers up to 50",
+    "ko": "50까지 수 비교",
+    "ja": "50までの数比べ",
+    "es": "Comparar números hasta 50"
+  },
+  "Compare numbers up to 60": {
+    "en": "Compare numbers up to 60",
+    "ko": "60까지 수 비교",
+    "ja": "60までの数比べ",
+    "es": "Comparar números hasta 60"
+  },
+  "Compare numbers up to 70": {
+    "en": "Compare numbers up to 70",
+    "ko": "70까지 수 비교",
+    "ja": "70までの数比べ",
+    "es": "Comparar números hasta 70"
+  },
+  "Compare numbers up to 80": {
+    "en": "Compare numbers up to 80",
+    "ko": "80까지 수 비교",
+    "ja": "80までの数比べ",
+    "es": "Comparar números hasta 80"
+  },
+  "Compare numbers up to 90": {
+    "en": "Compare numbers up to 90",
+    "ko": "90까지 수 비교",
+    "ja": "90までの数比べ",
+    "es": "Comparar números hasta 90"
+  },
+  "Compare numbers up to 100": {
+    "en": "Compare numbers up to 100",
+    "ko": "100까지 수 비교",
+    "ja": "100までの数比べ",
+    "es": "Comparar números hasta 100"
+  },
+  "Skip counting by 2": {
+    "en": "Skip counting by 2",
+    "ko": "2씩 뛰어 세기",
+    "ja": "2ずつ数える",
+    "es": "Contar de 2 en 2"
+  },
+  "Skip counting by 3": {
+    "en": "Skip counting by 3",
+    "ko": "3씩 뛰어 세기",
+    "ja": "3ずつ数える",
+    "es": "Contar de 3 en 3"
+  },
+  "Skip counting by 4": {
+    "en": "Skip counting by 4",
+    "ko": "4씩 뛰어 세기",
+    "ja": "4ずつ数える",
+    "es": "Contar de 4 en 4"
+  },
+  "Skip counting by 5": {
+    "en": "Skip counting by 5",
+    "ko": "5씩 뛰어 세기",
+    "ja": "5ずつ数える",
+    "es": "Contar de 5 en 5"
+  },
+  "Skip counting by 6": {
+    "en": "Skip counting by 6",
+    "ko": "6씩 뛰어 세기",
+    "ja": "6ずつ数える",
+    "es": "Contar de 6 en 6"
+  },
+  "Skip counting by 7": {
+    "en": "Skip counting by 7",
+    "ko": "7씩 뛰어 세기",
+    "ja": "7ずつ数える",
+    "es": "Contar de 7 en 7"
+  },
+  "Skip counting by 8": {
+    "en": "Skip counting by 8",
+    "ko": "8씩 뛰어 세기",
+    "ja": "8ずつ数える",
+    "es": "Contar de 8 en 8"
+  },
+  "Skip counting by 9": {
+    "en": "Skip counting by 9",
+    "ko": "9씩 뛰어 세기",
+    "ja": "9ずつ数える",
+    "es": "Contar de 9 en 9"
+  },
+  "Skip counting by 10": {
+    "en": "Skip counting by 10",
+    "ko": "10씩 뛰어 세기",
+    "ja": "10ずつ数える",
+    "es": "Contar de 10 en 10"
+  },
+  "Skip counting by 11": {
+    "en": "Skip counting by 11",
+    "ko": "11씩 뛰어 세기",
+    "ja": "11ずつ数える",
+    "es": "Contar de 11 en 11"
+  },
+  "One over 2 of a quantity": {
+    "en": "One over 2 of a quantity",
+    "ko": "수량의 2분의 1",
+    "ja": "数量の2分の1",
+    "es": "1/2 de una cantidad"
+  },
+  "One over 3 of a quantity": {
+    "en": "One over 3 of a quantity",
+    "ko": "수량의 3분의 1",
+    "ja": "数量の3分の1",
+    "es": "1/3 de una cantidad"
+  },
+  "One over 4 of a quantity": {
+    "en": "One over 4 of a quantity",
+    "ko": "수량의 4분의 1",
+    "ja": "数量の4分の1",
+    "es": "1/4 de una cantidad"
+  },
+  "One over 5 of a quantity": {
+    "en": "One over 5 of a quantity",
+    "ko": "수량의 5분의 1",
+    "ja": "数量の5分の1",
+    "es": "1/5 de una cantidad"
+  },
+  "One over 6 of a quantity": {
+    "en": "One over 6 of a quantity",
+    "ko": "수량의 6분의 1",
+    "ja": "数量の6分の1",
+    "es": "1/6 de una cantidad"
+  },
+  "One over 7 of a quantity": {
+    "en": "One over 7 of a quantity",
+    "ko": "수량의 7분의 1",
+    "ja": "数量の7分の1",
+    "es": "1/7 de una cantidad"
+  },
+  "One over 8 of a quantity": {
+    "en": "One over 8 of a quantity",
+    "ko": "수량의 8분의 1",
+    "ja": "数量の8分の1",
+    "es": "1/8 de una cantidad"
+  },
+  "One over 9 of a quantity": {
+    "en": "One over 9 of a quantity",
+    "ko": "수량의 9분의 1",
+    "ja": "数量の9分の1",
+    "es": "1/9 de una cantidad"
+  },
+  "One over 10 of a quantity": {
+    "en": "One over 10 of a quantity",
+    "ko": "수량의 10분의 1",
+    "ja": "数量の10分の1",
+    "es": "1/10 de una cantidad"
+  },
+  "One over 11 of a quantity": {
+    "en": "One over 11 of a quantity",
+    "ko": "수량의 11분의 1",
+    "ja": "数量の11分の1",
+    "es": "1/11 de una cantidad"
+  },
+  "Extended 2 times table": {
+    "en": "Extended 2 times table",
+    "ko": "2단 확장 곱셈",
+    "ja": "2の段の発展練習",
+    "es": "Tabla ampliada del 2"
+  },
+  "Extended 3 times table": {
+    "en": "Extended 3 times table",
+    "ko": "3단 확장 곱셈",
+    "ja": "3の段の発展練習",
+    "es": "Tabla ampliada del 3"
+  },
+  "Extended 4 times table": {
+    "en": "Extended 4 times table",
+    "ko": "4단 확장 곱셈",
+    "ja": "4の段の発展練習",
+    "es": "Tabla ampliada del 4"
+  },
+  "Extended 5 times table": {
+    "en": "Extended 5 times table",
+    "ko": "5단 확장 곱셈",
+    "ja": "5の段の発展練習",
+    "es": "Tabla ampliada del 5"
+  },
+  "Extended 6 times table": {
+    "en": "Extended 6 times table",
+    "ko": "6단 확장 곱셈",
+    "ja": "6の段の発展練習",
+    "es": "Tabla ampliada del 6"
+  },
+  "Extended 7 times table": {
+    "en": "Extended 7 times table",
+    "ko": "7단 확장 곱셈",
+    "ja": "7の段の発展練習",
+    "es": "Tabla ampliada del 7"
+  },
+  "Extended 8 times table": {
+    "en": "Extended 8 times table",
+    "ko": "8단 확장 곱셈",
+    "ja": "8の段の発展練習",
+    "es": "Tabla ampliada del 8"
+  },
+  "Extended 9 times table": {
+    "en": "Extended 9 times table",
+    "ko": "9단 확장 곱셈",
+    "ja": "9の段の発展練習",
+    "es": "Tabla ampliada del 9"
+  },
+  "Extended 10 times table": {
+    "en": "Extended 10 times table",
+    "ko": "10단 확장 곱셈",
+    "ja": "10の段の発展練習",
+    "es": "Tabla ampliada del 10"
+  },
+  "Extended 11 times table": {
+    "en": "Extended 11 times table",
+    "ko": "11단 확장 곱셈",
+    "ja": "11の段の発展練習",
+    "es": "Tabla ampliada del 11"
+  },
+  "Updated 23 October 2026 · Denny Lim": {
+    "en": "Updated 23 October 2026 · Denny Lim",
+    "ko": "2026년 10월 23일 업데이트 · Denny Lim",
+    "ja": "2026年10月23日更新 · Denny Lim",
+    "es": "Actualizado el 23 de octubre de 2026 · Denny Lim"
+  },
+  "Make math worksheets with answers, bingo cards, mazes and English word searches. Customize, share and print in your browser.": {
+    "en": "Make math worksheets with answers, bingo cards, mazes and English word searches. Customize, share and print in your browser.",
+    "ko": "정답이 있는 수학 활동지, 빙고, 미로, 영어 단어찾기를 만드세요. 브라우저에서 수정하고 공유하고 인쇄할 수 있습니다.",
+    "ja": "解答付き算数プリント、ビンゴ、迷路、英単語探しを作成。ブラウザで編集・共有・印刷できます。",
+    "es": "Crea fichas de matemáticas con respuestas, bingo, laberintos y sopas de letras en inglés. Edita, comparte e imprime en el navegador."
   }
 }

@@ -783,3 +783,11 @@ textarea:focus-visible {
 @media (max-width: 900px) {
   .page-content > #play, .page-content > .focus-flag { order: -2; }
 }
+
+/* Pencil-and-paper arithmetic: two columns remain printable on A4 and Letter. */
+.math-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.1rem 2rem;padding-left:1.5rem;font-variant-numeric:tabular-nums;}
+.math-grid li {padding:.35rem .2rem;break-inside:avoid;font-size:1.1rem;}
+.math-answer {display:inline-block;margin-left:.5rem;color:#226b58;border-bottom:1px solid currentColor;}
+.math-name {font-size:.8rem;margin-bottom:1.5rem;}
+@media(max-width:420px){.math-grid{gap:.65rem 1rem}.math-grid li{font-size:.85rem}}
+@media print {.math-grid{gap:1rem 2rem}.math-grid li{font-size:14pt}.math-answer{color:#111}}

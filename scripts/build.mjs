@@ -1,3 +1,5 @@
+import { versionModules } from "./version-modules.mjs";
+import { mathActivities, mathWorksheet } from "../src/math.js";
 import { versionStyles } from "./version-styles.mjs";
 import { discovery, related } from "./discovery.mjs";
 import { services, destination, artwork } from "../src/service-promo.js";
@@ -31,7 +33,7 @@ const titleKey = {
 }[s.slug];
 const descKey = {
   print:
-    "Make bingo cards, solvable mazes and English word searches. Customize, share and print in your browser.",
+    "Make math worksheets with answers, bingo cards, mazes and English word searches. Customize, share and print in your browser.",
   daily:
     "Five new flags each UTC day. Learn country names in your language and practice by region without changing your daily streak.",
   compare:
@@ -95,6 +97,15 @@ function catalog(lang) {
           body: `<h2>${t("Word list")}</h2><ul class="word-catalog">${words.map((x) => `<li>${esc(x)}</li>`).join("")}</ul><h2>${t("How it works")}</h2><p>${t(printHow)}</p><p>${mode === "bingo" ? t(bingoHow) : t("Bingo needs 24 unique words. Word search uses 3–12 words, A–Z only, up to 12 letters each.")}</p>`,
         });
       }
+    for (const activity of mathActivities) {
+      const index=langs.indexOf(lang), name=activity.title[index];
+      const title=t("{name} · printable math worksheet",{name});
+      const desc=t("{name}: 24 distinct exercises with a separate answer view. Change the edition, print up to 12 sheets and share the settings.",{name});
+      const sample=mathWorksheet(activity.id,1).slice(0,6);
+      out.push({path:`math/${activity.id}/`,title,desc,
+        preset:{mode:"math",mathId:activity.id,title,words:themes[0].words[lang]},
+        body:`<h2>${t("Learning goal")}</h2><p>${esc(activity.how[index])}</p><h2>${t("Sample exercises")}</h2><ol>${sample.map(q=>`<li>${esc(q.prompt)} <strong>${t("Answer")}: ${esc(q.answer)}</strong></li>`).join("")}</ol><h2>${t("How it works")}</h2><p>${t(printHow)}</p><p>${t("Print the question sheet before revealing answers. A new edition changes the exercise selection and order, while keeping the same learning goal.")}</p>`});
+    }
     for (const [i, size] of [10, 14, 20].entries()) {
       const title = t("{theme} maze · {size} × {size}", {
         theme: t(["Easy", "Medium", "Challenging"][i]),
@@ -159,7 +170,7 @@ function catalog(lang) {
             body: `<h2>${t("Measurement")}: ${t(c.dimension)}</h2><table class="data-table"><thead><tr><th>${t("First object")}</th><th>${t("Value")}</th></tr></thead><tbody>${[a, b].map((x) => `<tr><th>${esc(itemName(x, lang))}</th><td>${fmt(x[2], lang)} ${c.unit}</td></tr>`).join("")}</tbody></table><p>${fmt(a[2], lang)} ÷ ${fmt(b[2], lang)} ≈ ${ratioText}</p><h2>${t("Sources & method")}</h2><p>${t(c.note)}</p><p>${t(ratioHow)}</p><p><a href="${c.source}">${category === "area" ? "World Bank · 2024" : category === "space" ? "NASA Planetary Fact Sheet" : "Eiffel Tower"}</a>${category === "height" ? ' · <a href="https://www.skyscrapercenter.com/building/burj-khalifa/3">CTBUH · Burj Khalifa</a>' : ""}</p><p>${t(compareHow)}</p>`,
           });
         }
-  return out;
+  return [...out.filter(p => !p.path.startsWith("math/")), ...out.filter(p => p.path.startsWith("math/"))];
 }
 await rm("dist", { recursive: true, force: true });
 await mkdir("dist");
@@ -268,7 +279,7 @@ for (const lang of langs) {
     hero(t(titleKey), t(descKey)) +
       tool(s.slug, t, defaultPreset) +
       discovery(s.slug,lang,items,p=>local(lang,p.path)) +
-      `<section class="info"><h2>${t("All activities")}</h2>${cards(items.slice(0, 9))}<p><a class="button" href="${local(lang, "activities/")}">${t("All activities")} (${items.length}) →</a></p></section>`,
+      `<section class="info"><h2>${t("All activities")}</h2>${cards(items.slice(-100).filter((p,i)=>i%12===0).slice(0,9))}<p><a class="button" href="${local(lang, "activities/")}">${t("All activities")} (${items.length}) →</a></p></section>`,
     defaultPreset,
   );
   for (const p of items)
@@ -279,7 +290,7 @@ for (const lang of langs) {
       p.desc,
       hero(p.title, p.desc) +
         tool(s.slug, t, p.preset) +
-        `<article class="info">${p.body}<p class="muted">${t("Updated 22 October 2026 · Denny Lim")}</p><h2>${t("Related activities")}</h2>${cards(related(items,p,6))}</article>`,
+        `<article class="info">${p.body}<p class="muted">${t("Updated 23 October 2026 · Denny Lim")}</p><h2>${t("Related activities")}</h2>${cards(related(items,p,6))}</article>`,
       p.preset,
     );
   await emit(
@@ -287,7 +298,7 @@ for (const lang of langs) {
     "activities/",
     t("All activities"),
     t(descKey),
-    hero(t("All activities"), t(descKey)) + `<label for="activity-search">${t("Search activities")}</label><input type="search" id="activity-search" aria-controls="activity-catalog" autocomplete="off"><p id="activity-count" role="status">${items.length} / ${items.length}</p><div id="activity-catalog">${cards(items)}</div>`,
+    hero(t("All activities"), t(descKey)) + `<label for="activity-search">${t("Search activities")}</label><input type="search" id="activity-search" aria-controls="activity-catalog" autocomplete="off"><p id="activity-count" role="status">${items.length} / ${items.length}</p><div id="activity-catalog">${cards([...items.slice(-100),...items.slice(0,-100)])}</div>`,
   );
   await emit(
     lang,
@@ -403,4 +414,5 @@ console.log(
 
 await writeFile("dist/activity-manifest.json", json({activities: catalog("en").map(p=>p.path)}));
 
+versionModules("dist");
 versionStyles("dist");

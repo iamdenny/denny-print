@@ -1,3 +1,4 @@
+import { mathActivities, mathWorksheet } from "./math.js";
 import { t, locale, country, preset } from "./i18n.js";
 import { bingo, maze, wordsearch } from "./logic.js";
 const $ = (s) => document.querySelector(s),
@@ -41,6 +42,9 @@ function draw() {
             )
             .join("") +
           "</div>";
+      } else if (mode === "math") {
+        const rows=mathWorksheet($("#math-activity").value,seed+c);
+        content=`<p class="math-name">${t("Name")}: ____________________ &nbsp; ${t("Date")}: __________</p><ol class="math-grid">${rows.map(q=>`<li><span>${esc(q.prompt)}</span>${answers?`<strong class="math-answer">${esc(q.answer)}</strong>`:""}</li>`).join("")}</ol>`;
       } else if (mode === "maze") {
         const size = Number($("#size").value);
         const m = maze(size, seed + c),
@@ -85,7 +89,7 @@ function draw() {
           w.words.join(" · ") +
           "</p>";
       }
-      html += `<article class="sheet"><small>DENNY PRINT / ${t({ bingo: "Bingo", maze: "Maze", words: "Word search" }[mode])} ${answers && mode !== "bingo" ? "· " + t("ANSWER SHEET") : ""}</small><h2>${title}</h2>${content}<small>${t("Edition {n}", { n: seed + c })} · print.iamdenny.com</small></article>`;
+      html += `<article class="sheet"><small>DENNY PRINT / ${t({ bingo: "Bingo", maze: "Maze", words: "Word search", math: "Math" }[mode])} ${answers && mode !== "bingo" ? "· " + t("ANSWER SHEET") : ""}</small><h2>${title}</h2>${content}<small>${t("Edition {n}", { n: seed + c })} · print.iamdenny.com</small></article>`;
     }
     preview.innerHTML = html;
     status.textContent = t("{n} sheets ready.", { n: count });
@@ -105,7 +109,8 @@ function setMode(next) {
     .forEach((b) =>
       b.setAttribute("aria-pressed", String(b.dataset.mode === mode)),
     );
-  $("#word-controls").hidden = mode === "maze";
+  $("#word-controls").hidden = mode === "maze" || mode === "math";
+  $("#math-controls").hidden = mode !== "math";
   $("#maze-controls").hidden = mode !== "maze";
   $("#solution").hidden = mode === "bingo";
   answers = false;
@@ -148,6 +153,7 @@ $("#share").addEventListener("click", async () => {
     seed: $("#seed").value,
     count: $("#count").value,
     size: $("#size").value,
+    math: $("#math-activity").value,
   });
   const url = new URL(location.href);
   url.hash = params.toString();
@@ -160,8 +166,14 @@ $("#share").addEventListener("click", async () => {
     status.textContent = t("Copy this link: ") + url.href;
   }
 });
+$("#math-activity").addEventListener("change",()=>{
+ const selected=mathActivities.find(a=>a.id===$("#math-activity").value);
+ $("#title").value=selected.title[["en","ko","ja","es"].indexOf(locale)];
+ answers=false; $("#solution").textContent=t("Show answers"); $("#solution").setAttribute("aria-pressed","false"); draw();
+});
 const params = new URLSearchParams(location.hash.slice(1));
-if (["bingo", "maze", "words"].includes(params.get("mode")))
+if(mathActivities.some(a=>a.id===params.get("math"))) $("#math-activity").value=params.get("math");
+if (["bingo", "maze", "words", "math"].includes(params.get("mode")))
   setMode(params.get("mode"));
 else setMode(preset.mode || "bingo");
 if (mode === "words" && preset.mode !== "words") $("#words").value = wordPreset;
