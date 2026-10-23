@@ -1264,5 +1264,155 @@
     "ko": "같은 제작자의 다른 서비스",
     "ja": "同じ開発者のサービス",
     "es": "Más del mismo creador"
+  },
+  "Pets & Birds": {
+    "en": "Pets & Birds",
+    "ko": "반려동물 & 새",
+    "ja": "ペット & 鳥",
+    "es": "Mascotas & Aves"
+  },
+  "Wild animals & Insects": {
+    "en": "Wild animals & Insects",
+    "ko": "야생 동물 & 곤충",
+    "ja": "野生動物 & 昆虫",
+    "es": "Animales salvajes & Insectos"
+  },
+  "Flowers & Weather": {
+    "en": "Flowers & Weather",
+    "ko": "꽃 & 날씨",
+    "ja": "花 & 天気",
+    "es": "Flores & Tiempo"
+  },
+  "Garden & Landscapes": {
+    "en": "Garden & Landscapes",
+    "ko": "정원 & 풍경",
+    "ja": "庭 & 風景",
+    "es": "Jardín & Paisajes"
+  },
+  "Breakfast & Fruit": {
+    "en": "Breakfast & Fruit",
+    "ko": "아침 메뉴 & 과일",
+    "ja": "朝食 & 果物",
+    "es": "Desayuno & Frutas"
+  },
+  "Vegetables & Kitchen tools": {
+    "en": "Vegetables & Kitchen tools",
+    "ko": "채소 & 주방 도구",
+    "ja": "野菜 & 台所用品",
+    "es": "Verduras & Utensilios de cocina"
+  },
+  "Desserts & Drinks": {
+    "en": "Desserts & Drinks",
+    "ko": "디저트 & 음료",
+    "ja": "デザート & 飲み物",
+    "es": "Postres & Bebidas"
+  },
+  "Lunch & Camping": {
+    "en": "Lunch & Camping",
+    "ko": "점심 메뉴 & 캠핑",
+    "ja": "昼食 & キャンプ",
+    "es": "Almuerzo & Acampada"
+  },
+  "Colors & Clothing": {
+    "en": "Colors & Clothing",
+    "ko": "색깔 & 옷",
+    "ja": "色 & 服",
+    "es": "Colores & Ropa"
+  },
+  "Shapes & Home objects": {
+    "en": "Shapes & Home objects",
+    "ko": "도형 & 집 안 물건",
+    "ja": "図形 & 家の物",
+    "es": "Figuras & Objetos de casa"
+  },
+  "Stationery & Jobs": {
+    "en": "Stationery & Jobs",
+    "ko": "문구 & 직업",
+    "ja": "文房具 & 仕事",
+    "es": "Papelería & Profesiones"
+  },
+  "School subjects & Science tools": {
+    "en": "School subjects & Science tools",
+    "ko": "학교 과목 & 과학 도구",
+    "ja": "学校の教科 & 科学の道具",
+    "es": "Asignaturas & Material científico"
+  },
+  "Musical instruments & Party games": {
+    "en": "Musical instruments & Party games",
+    "ko": "악기 & 파티 놀이",
+    "ja": "楽器 & パーティーゲーム",
+    "es": "Instrumentos & Juegos de fiesta"
+  },
+  "Music styles & Feeling words": {
+    "en": "Music styles & Feeling words",
+    "ko": "음악 장르 & 감정 단어",
+    "ja": "音楽ジャンル & 気持ちの言葉",
+    "es": "Estilos musicales & Emociones"
+  },
+  "Sports & Places in town": {
+    "en": "Sports & Places in town",
+    "ko": "스포츠 & 동네 장소",
+    "ja": "スポーツ & 町の場所",
+    "es": "Deportes & Lugares de la ciudad"
+  },
+  "Hobbies & Drawing prompts": {
+    "en": "Hobbies & Drawing prompts",
+    "ko": "취미 & 그림 주제",
+    "ja": "趣味 & お絵描きのお題",
+    "es": "Aficiones & Ideas para dibujar"
+  },
+  "Weekend activities & Travel essentials": {
+    "en": "Weekend activities & Travel essentials",
+    "ko": "주말 활동 & 여행 준비물",
+    "ja": "週末の活動 & 旅の持ち物",
+    "es": "Planes de fin de semana & Equipaje"
+  },
+  "Household chores & Action words": {
+    "en": "Household chores & Action words",
+    "ko": "집안일 & 동작 단어",
+    "ja": "家事 & 動作の言葉",
+    "es": "Tareas del hogar & Verbos"
+  },
+  "Transport & Space words": {
+    "en": "Transport & Space words",
+    "ko": "교통수단 & 우주 단어",
+    "ja": "乗り物 & 宇宙の言葉",
+    "es": "Transportes & Vocabulario espacial"
+  },
+  "Story genres & Technology": {
+    "en": "Story genres & Technology",
+    "ko": "이야기 장르 & 기술",
+    "ja": "物語のジャンル & 技術",
+    "es": "Géneros narrativos & Tecnología"
+  },
+  "Story characters & Textures": {
+    "en": "Story characters & Textures",
+    "ko": "이야기 인물 & 질감",
+    "ja": "物語の登場人物 & 手触り",
+    "es": "Personajes & Texturas"
+  },
+  "Birds & Landscapes": {
+    "en": "Birds & Landscapes",
+    "ko": "새 & 풍경",
+    "ja": "鳥 & 風景",
+    "es": "Aves & Paisajes"
+  },
+  "Flowers & Feeling words": {
+    "en": "Flowers & Feeling words",
+    "ko": "꽃 & 감정 단어",
+    "ja": "花 & 気持ちの言葉",
+    "es": "Flores & Emociones"
+  },
+  "Garden & Insects": {
+    "en": "Garden & Insects",
+    "ko": "정원 & 곤충",
+    "ja": "庭 & 昆虫",
+    "es": "Jardín & Insectos"
+  },
+  "Camping & Weather": {
+    "en": "Camping & Weather",
+    "ko": "캠핑 & 날씨",
+    "ja": "キャンプ & 天気",
+    "es": "Acampada & Tiempo"
   }
 }

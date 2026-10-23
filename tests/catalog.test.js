@@ -3,8 +3,8 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { bingo, wordsearch } from '../src/logic.js';
 const themes = JSON.parse(fs.readFileSync('src/themes.json','utf8'));
-test('53 distinct print activities have usable multilingual bingo and English word searches', () => {
- assert.ok(themes.length * 2 + 3 >= 50);
+test('103 distinct print activities have usable multilingual bingo and English word searches', () => {
+ assert.ok(themes.length * 2 + 3 >= 103);
  assert.equal(new Set(themes.map(t => t.id)).size,themes.length);
  for (const theme of themes) {
   for (const lang of ['en','ko','ja','es']) {
