@@ -13,7 +13,7 @@ export function artwork(service, locale) {
   const root = "/service-promo/";
   if (service.id === "games") return { wide: root + `denny-games-${lang}-970x250.png`, mobile: root + `denny-games-${lang}-320x100.png`, width: 970, height: 250, mobileWidth: 320, mobileHeight: 100, language: lang };
   if (service.id === "modutt") return { wide: root + "modutt-wide-light.svg", mobile: root + "modutt-mobile-light.svg", width: 1200, height: 300, mobileWidth: 320, mobileHeight: 100, language: "ko" };
-  return { wide: root + "everyday-tools-ko-banner-1500x500.png", mobile: root + "everyday-tools-ko-banner-1500x500.png", width: 1500, height: 500, mobileWidth: 1500, mobileHeight: 500, language: "ko" };
+  return { wide: root + "everyday-tools-ko-banner-1500x500.webp", mobile: root + "everyday-tools-ko-banner-1500x500.webp", width: 1500, height: 500, mobileWidth: 1500, mobileHeight: 500, language: "ko" };
 }
 export function chooseService(current, random = Math.random) {
   const choices = services.filter(service => service.id !== current);
