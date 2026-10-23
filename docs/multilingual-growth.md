@@ -11,3 +11,9 @@
 - Google sitemap URLs remain stable. IndexNow automatically submits the expanded sitemap after Pages deployment.
 
 Run `npm run verify`. Browser validation covers language switching, representative presets, quiz feedback, maze answers, and a 390px layout. Provider registration is separate from indexing, ad fill, and revenue.
+
+## First-party service discovery
+
+A labeled image banner above page content chooses one of Games, Everyday Tools or MODU TT on each page load. All artwork is copied unchanged from the existing public promotion kits at https://games.iamdenny.com/ko/promote/, https://tools.iamdenny.com/ko/promo/ and https://modutt.kr/brand. Source URLs and SHA-256 provenance are in `service-promo-assets.json`. Other owned sites are not candidates until an approved banner kit exists.
+
+Games uses existing 970×250 and mobile 320×100 artwork in English/Korean. MODU TT uses existing 1200×300 and 320×100 SVGs. Tools uses its existing 1500×500 banner at natural aspect ratio. MODU TT and Tools currently supply Korean artwork; image language is marked explicitly while surrounding labels use the page language. Banners have keyboard focus, meaningful link names and are hidden when printing. No generated text cards, remote image requests, storage, timers or analytics are added. Initial static artwork remains a working link without JavaScript. This is owned-service promotion, independent of advertising consent and paid ad serving.

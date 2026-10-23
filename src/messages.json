@@ -1258,5 +1258,11 @@
     "ko": "콘텐츠 검색",
     "ja": "コンテンツを検索",
     "es": "Buscar actividades"
+  },
+  "From the same maker": {
+    "en": "From the same maker",
+    "ko": "같은 제작자의 다른 서비스",
+    "ja": "同じ開発者のサービス",
+    "es": "Más del mismo creador"
   }
 }
