@@ -1138,5 +1138,11 @@
     "ko": "방문 통계에는 페이지 경로와 기능 이름만 전송합니다. URL 쿼리·해시·입력 내용·사용자 수치·퀴즈 답변은 제외합니다. 동의를 철회하면 이후 수집을 중단하지만 제공업체가 이미 처리한 데이터는 삭제되지 않습니다.",
     "ja": "解析にはページのパスと機能名のみを送り、URLのクエリ・フラグメント、入力内容、数値、クイズの回答は除外します。同意撤回後は収集を停止しますが、既に処理されたデータは削除されません。",
     "es": "La analítica recibe rutas y nombres de funciones. Excluimos consultas y fragmentos de URL, texto, valores y respuestas. Retirar el permiso detiene la recogida futura, pero no elimina datos ya procesados."
+  },
+  "From the same maker": {
+    "en": "From the same maker",
+    "ko": "같은 제작자의 다른 서비스",
+    "ja": "同じ開発者のサービス",
+    "es": "Más del mismo creador"
   }
 }
