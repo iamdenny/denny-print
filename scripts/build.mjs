@@ -1,3 +1,4 @@
+import { versionStyles } from "./version-styles.mjs";
 import { discovery, related } from "./discovery.mjs";
 import { services, destination, artwork } from "../src/service-promo.js";
 import { readFile, writeFile, mkdir, cp, rm } from "node:fs/promises";
@@ -401,3 +402,5 @@ console.log(
 );
 
 await writeFile("dist/activity-manifest.json", json({activities: catalog("en").map(p=>p.path)}));
+
+versionStyles("dist");
