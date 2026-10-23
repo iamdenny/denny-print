@@ -1138,5 +1138,125 @@
     "ko": "방문 통계에는 페이지 경로와 기능 이름만 전송합니다. URL 쿼리·해시·입력 내용·사용자 수치·퀴즈 답변은 제외합니다. 동의를 철회하면 이후 수집을 중단하지만 제공업체가 이미 처리한 데이터는 삭제되지 않습니다.",
     "ja": "解析にはページのパスと機能名のみを送り、URLのクエリ・フラグメント、入力内容、数値、クイズの回答は除外します。同意撤回後は収集を停止しますが、既に処理されたデータは削除されません。",
     "es": "La analítica recibe rutas y nombres de funciones. Excluimos consultas y fragmentos de URL, texto, valores y respuestas. Retirar el permiso detiene la recogida futura, pero no elimina datos ya procesados."
+  },
+  "Breakfast & Drinks": {
+    "en": "Breakfast & Drinks",
+    "ko": "아침 메뉴 & 음료",
+    "ja": "朝食 & 飲み物",
+    "es": "Desayuno & Bebidas"
+  },
+  "Fruit & Vegetables": {
+    "en": "Fruit & Vegetables",
+    "ko": "과일 & 채소",
+    "ja": "果物 & 野菜",
+    "es": "Frutas & Verduras"
+  },
+  "Desserts & Lunch": {
+    "en": "Desserts & Lunch",
+    "ko": "디저트 & 점심 메뉴",
+    "ja": "デザート & 昼食",
+    "es": "Postres & Almuerzo"
+  },
+  "Pets & Wild animals": {
+    "en": "Pets & Wild animals",
+    "ko": "반려동물 & 야생 동물",
+    "ja": "ペット & 野生動物",
+    "es": "Mascotas & Animales salvajes"
+  },
+  "Birds & Insects": {
+    "en": "Birds & Insects",
+    "ko": "새 & 곤충",
+    "ja": "鳥 & 昆虫",
+    "es": "Aves & Insectos"
+  },
+  "Flowers & Garden": {
+    "en": "Flowers & Garden",
+    "ko": "꽃 & 정원",
+    "ja": "花 & 庭",
+    "es": "Flores & Jardín"
+  },
+  "Weather & Landscapes": {
+    "en": "Weather & Landscapes",
+    "ko": "날씨 & 풍경",
+    "ja": "天気 & 風景",
+    "es": "Tiempo & Paisajes"
+  },
+  "Colors & Shapes": {
+    "en": "Colors & Shapes",
+    "ko": "색깔 & 도형",
+    "ja": "色 & 図形",
+    "es": "Colores & Figuras"
+  },
+  "Stationery & School subjects": {
+    "en": "Stationery & School subjects",
+    "ko": "문구 & 학교 과목",
+    "ja": "文房具 & 学校の教科",
+    "es": "Papelería & Asignaturas"
+  },
+  "Musical instruments & Music styles": {
+    "en": "Musical instruments & Music styles",
+    "ko": "악기 & 음악 장르",
+    "ja": "楽器 & 音楽ジャンル",
+    "es": "Instrumentos & Estilos musicales"
+  },
+  "Sports & Hobbies": {
+    "en": "Sports & Hobbies",
+    "ko": "스포츠 & 취미",
+    "ja": "スポーツ & 趣味",
+    "es": "Deportes & Aficiones"
+  },
+  "Weekend activities & Places in town": {
+    "en": "Weekend activities & Places in town",
+    "ko": "주말 활동 & 동네 장소",
+    "ja": "週末の活動 & 町の場所",
+    "es": "Planes de fin de semana & Lugares de la ciudad"
+  },
+  "Household chores & Home objects": {
+    "en": "Household chores & Home objects",
+    "ko": "집안일 & 집 안 물건",
+    "ja": "家事 & 家の物",
+    "es": "Tareas del hogar & Objetos de casa"
+  },
+  "Kitchen tools & Home objects": {
+    "en": "Kitchen tools & Home objects",
+    "ko": "주방 도구 & 집 안 물건",
+    "ja": "台所用品 & 家の物",
+    "es": "Utensilios de cocina & Objetos de casa"
+  },
+  "Clothing & Travel essentials": {
+    "en": "Clothing & Travel essentials",
+    "ko": "옷 & 여행 준비물",
+    "ja": "服 & 旅の持ち物",
+    "es": "Ropa & Equipaje"
+  },
+  "Transport & Camping": {
+    "en": "Transport & Camping",
+    "ko": "교통수단 & 캠핑",
+    "ja": "乗り物 & キャンプ",
+    "es": "Transportes & Acampada"
+  },
+  "Jobs & Story characters": {
+    "en": "Jobs & Story characters",
+    "ko": "직업 & 이야기 인물",
+    "ja": "仕事 & 物語の登場人物",
+    "es": "Profesiones & Personajes"
+  },
+  "Space words & Science tools": {
+    "en": "Space words & Science tools",
+    "ko": "우주 단어 & 과학 도구",
+    "ja": "宇宙の言葉 & 科学の道具",
+    "es": "Vocabulario espacial & Material científico"
+  },
+  "Story genres & Drawing prompts": {
+    "en": "Story genres & Drawing prompts",
+    "ko": "이야기 장르 & 그림 주제",
+    "ja": "物語のジャンル & お絵描きのお題",
+    "es": "Géneros narrativos & Ideas para dibujar"
+  },
+  "Search activities": {
+    "en": "Search activities",
+    "ko": "콘텐츠 검색",
+    "ja": "コンテンツを検索",
+    "es": "Buscar actividades"
   }
 }

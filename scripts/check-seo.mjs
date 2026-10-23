@@ -64,3 +64,7 @@ for (const url of urls) {
   assert(!html.includes("aria-label=t("));
 }
 console.log("Reciprocal hreflang and localized canonical audit passed");
+
+const { activities } = JSON.parse(await readFile("dist/activity-manifest.json", "utf8"));
+assert(activities.length >= 50, "50 unique activities, excluding translations");
+assert.equal(new Set(activities).size, activities.length);

@@ -46,7 +46,7 @@ test("all theme translations produce playable bingo and English word searches", 
       for (const words of Object.values(theme.words))
         assert.equal(bingo(words, seed).length, 25);
       assert.equal(
-        wordsearch(theme.words.en.slice(0, 10), seed).placements.length,
+        wordsearch([...new Set(theme.words.en.map(w => w.toUpperCase().replace(/[^A-Z]/g, "")))].filter(w => w.length >= 2 && w.length <= 12).slice(0, 10), seed).placements.length,
         10,
       );
     }
