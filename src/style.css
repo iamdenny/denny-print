@@ -890,3 +890,7 @@ textarea:focus-visible {
   border-top: 1px solid var(--line);
   background: var(--paper);
 }
+
+.privacy-actions [data-consent-customize] {
+  grid-column: 1 / -1;
+}

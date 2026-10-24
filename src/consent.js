@@ -34,7 +34,7 @@ export function readLegacyChoice(value, now = Date.now()) {
 const copy = {
   en: {
     title: "Your privacy choices",
-    intro: "Choose separately whether to allow Adsterra ads and Google Analytics. Your choice applies across Denny services on iamdenny.com. You can change it any time in Privacy settings.",
+    intro: "Allow or reject optional advertising and usage measurement in one tap, or customize each choice. Your preference is shared across Denny services on iamdenny.com.",
     group: "Optional purposes",
     ads: "Advertising · Adsterra",
     adsDetail: "Displays ads. Adsterra may process connection and device information.",
@@ -43,12 +43,13 @@ const copy = {
     save: "Save choices",
     reject: "Reject optional",
     allow: "Allow all",
+    customize: "Customize choices",
     privacy: "Privacy details",
     settings: "Privacy settings",
   },
   ko: {
     title: "개인정보 선택 설정",
-    intro: "Adsterra 광고와 Google Analytics 이용 분석을 각각 선택하세요. 선택은 iamdenny.com의 Denny 서비스에 공통 적용되며 개인정보 설정에서 언제든 바꿀 수 있습니다.",
+    intro: "선택 광고와 이용 분석을 한 번에 허용·거부하거나, 세부 항목을 따로 설정할 수 있습니다. 선택은 iamdenny.com의 Denny 서비스에 공통 적용됩니다.",
     group: "선택 항목",
     ads: "광고 · Adsterra",
     adsDetail: "광고를 표시합니다. Adsterra가 접속·기기 정보를 처리할 수 있습니다.",
@@ -57,12 +58,13 @@ const copy = {
     save: "선택 저장",
     reject: "선택 항목 거부",
     allow: "모두 허용",
+    customize: "세부 설정",
     privacy: "개인정보 안내",
     settings: "개인정보 설정",
   },
   ja: {
     title: "プライバシー設定",
-    intro: "Adsterra 広告と Google Analytics による利用状況の測定を個別に選択できます。設定は iamdenny.com の Denny サービスで共通になり、いつでも変更できます。",
+    intro: "任意の広告と利用状況の測定を一度に許可または拒否できます。個別に設定することもできます。設定は iamdenny.com の Denny サービスで共通です。",
     group: "任意の利用目的",
     ads: "広告 · Adsterra",
     adsDetail: "広告を表示します。Adsterra が接続情報や端末情報を処理する場合があります。",
@@ -71,12 +73,13 @@ const copy = {
     save: "選択を保存",
     reject: "任意の利用を拒否",
     allow: "すべて許可",
+    customize: "個別に設定",
     privacy: "プライバシーの詳細",
     settings: "プライバシー設定",
   },
   es: {
     title: "Tus opciones de privacidad",
-    intro: "Elige por separado si permites los anuncios de Adsterra y Google Analytics. La elección se aplica a los servicios de Denny en iamdenny.com y puedes cambiarla cuando quieras.",
+    intro: "Permite o rechaza la publicidad y la medición de uso en un solo toque, o personaliza cada opción. La elección se comparte en los servicios de Denny en iamdenny.com.",
     group: "Opciones voluntarias",
     ads: "Publicidad · Adsterra",
     adsDetail: "Muestra anuncios. Adsterra puede procesar datos de conexión y del dispositivo.",
@@ -85,6 +88,7 @@ const copy = {
     save: "Guardar opciones",
     reject: "Rechazar opcionales",
     allow: "Permitir todo",
+    customize: "Personalizar opciones",
     privacy: "Detalles de privacidad",
     settings: "Privacidad",
   },
@@ -214,10 +218,14 @@ if (typeof document !== "undefined") {
       if (className) item.className = className;
       return item;
     };
+    const customize = button("consentCustomize", text.customize, "secondary");
+    const save = button("consentSave", text.save, "secondary");
+    save.hidden = true;
     actions.append(
-      button("consentSave", text.save, "secondary"),
-      button("consentReject", text.reject, "secondary"),
       button("consentAllow", text.allow),
+      button("consentReject", text.reject, "secondary"),
+      customize,
+      save,
     );
     const status = document.createElement("p");
     status.className = "privacy-status";
@@ -229,7 +237,7 @@ if (typeof document !== "undefined") {
     panel.setAttribute("role", "dialog");
     panel.setAttribute("aria-labelledby", title.id);
     panel.setAttribute("aria-describedby", intro.id);
-    for (const item of document.querySelectorAll("#privacy-settings, #analytics-settings, #ad-settings, [data-open-consent]")) {
+    for (const item of document.querySelectorAll("#privacy-settings, #analytics-settings, #ad-settings, [data-open-consent], [data-open-ads]")) {
       item.textContent = text.settings;
       item.addEventListener("click", open);
     }
@@ -237,14 +245,26 @@ if (typeof document !== "undefined") {
       const current = getPreferences();
       panel.querySelector('[data-consent-choice="ads"]').checked = current?.ads === true;
       panel.querySelector('[data-consent-choice="analytics"]').checked = current?.analytics === true;
+      group.hidden = true;
+      customize.hidden = false;
+      save.hidden = true;
       panel.hidden = false;
-      panel.querySelector('[data-consent-choice="ads"]').focus();
+      actions.querySelector("[data-consent-allow]").focus();
     }
     function commit(values) {
       savePreferences(values);
       panel.hidden = true;
+      group.hidden = true;
+      customize.hidden = false;
+      save.hidden = true;
       status.textContent = "";
     }
+    customize.addEventListener("click", () => {
+      group.hidden = false;
+      customize.hidden = true;
+      save.hidden = false;
+      panel.querySelector('[data-consent-choice="ads"]').focus();
+    });
     actions.querySelector("[data-consent-save]").addEventListener("click", () => {
       commit({
         ads: panel.querySelector('[data-consent-choice="ads"]').checked,

@@ -23,6 +23,12 @@
     "ja": "プライバシー",
     "es": "Privacidad"
   },
+  "Privacy settings": {
+    "en": "Privacy settings",
+    "ko": "개인정보 설정",
+    "ja": "プライバシー設定",
+    "es": "Privacidad"
+  },
   "Source": {
     "en": "Source",
     "ko": "소스 코드",
@@ -1127,17 +1133,17 @@
     "ja": "広告とアクセス解析",
     "es": "Publicidad y analítica"
   },
-  "Optional Adsterra ads load only after advertising permission. Optional Google Analytics loads only after analytics permission. Providers may process cookies, device and connection information. Choices are stored for up to 180 days and can be changed in the footer. Refusing does not restrict any tool. AdSense is not served while approval is pending.": {
-    "en": "Optional Adsterra ads load only after advertising permission. Optional Google Analytics loads only after analytics permission. Providers may process cookies, device and connection information. Choices are stored for up to 180 days and can be changed in the footer. Refusing does not restrict any tool. AdSense is not served while approval is pending.",
-    "ko": "선택적 Adsterra 광고는 광고 동의 후에만, 선택적 Google Analytics는 방문 통계 동의 후에만 로드됩니다. 제공업체는 쿠키·기기·접속 정보를 처리할 수 있습니다. 선택은 최대 180일 저장되며 하단에서 바꿀 수 있습니다. 거부해도 기능을 제한하지 않습니다. AdSense는 승인 대기 중에는 송출하지 않습니다.",
-    "ja": "任意のAdsterra広告は広告への同意後、Google Analyticsは解析への同意後にのみ読み込みます。提供会社がCookie・端末・接続情報を処理する場合があります。選択は最大180日保存され、フッターで変更できます。拒否しても機能は制限しません。AdSenseは承認待ちの間は配信しません。",
-    "es": "Los anuncios opcionales de Adsterra y Google Analytics solo se cargan con su permiso respectivo. Los proveedores pueden procesar cookies y datos del dispositivo y conexión. Guardamos tu elección hasta 180 días; puedes cambiarla en el pie. Rechazar no limita las herramientas. AdSense no se sirve mientras espera aprobación."
+  "Optional Adsterra ads load only after you allow advertising, and Google Analytics loads only after you allow usage measurement. Providers may process cookies, device and connection information. Separate choices are stored for up to 180 days and shared across Denny services on iamdenny.com. You can change them under Privacy settings in the footer. Refusing does not restrict any tool. AdSense is not served while approval is pending.": {
+    "en": "Optional Adsterra ads load only after you allow advertising, and Google Analytics loads only after you allow usage measurement. Providers may process cookies, device and connection information. Separate choices are stored for up to 180 days and shared across Denny services on iamdenny.com. You can change them under Privacy settings in the footer. Refusing does not restrict any tool. AdSense is not served while approval is pending.",
+    "ko": "선택적 Adsterra 광고는 광고를, Google Analytics는 이용 분석을 각각 허용한 뒤에만 로드됩니다. 제공업체는 쿠키·기기·접속 정보를 처리할 수 있습니다. 두 선택은 iamdenny.com의 Denny 서비스에서 공유되며 최대 180일간 보관됩니다. 푸터의 개인정보 설정에서 바꿀 수 있습니다. 거부해도 도구 사용은 제한되지 않습니다. AdSense는 승인 대기 중에는 송출되지 않습니다.",
+    "ja": "任意のAdsterra広告は広告を、Google Analyticsは利用状況の測定をそれぞれ許可した後にのみ読み込まれます。提供会社がCookie・端末・接続情報を処理する場合があります。2つの選択はiamdenny.comのDennyサービス間で共有され、最大180日間保存されます。フッターのプライバシー設定から変更できます。拒否してもツールは制限されません。AdSenseは承認待ちの間は配信しません。",
+    "es": "Los anuncios opcionales de Adsterra solo se cargan si permites la publicidad, y Google Analytics si permites la medición de uso. Los proveedores pueden procesar cookies y datos del dispositivo y conexión. Las dos opciones se comparten entre los servicios Denny de iamdenny.com y se guardan hasta 180 días. Puedes cambiarlas en Privacidad en el pie. Rechazar no limita las herramientas. AdSense no se sirve mientras espera aprobación."
   },
   "Analytics receives page paths and feature names. We exclude URL queries, URL fragments, user-entered text, custom values and quiz answers. Withdrawing consent stops future collection on this site; it does not remove data already processed by the provider.": {
-    "en": "Analytics receives page paths and feature names. We exclude URL queries, URL fragments, user-entered text, custom values and quiz answers. Withdrawing consent stops future collection on this site; it does not remove data already processed by the provider.",
-    "ko": "방문 통계에는 페이지 경로와 기능 이름만 전송합니다. URL 쿼리·해시·입력 내용·사용자 수치·퀴즈 답변은 제외합니다. 동의를 철회하면 이후 수집을 중단하지만 제공업체가 이미 처리한 데이터는 삭제되지 않습니다.",
-    "ja": "解析にはページのパスと機能名のみを送り、URLのクエリ・フラグメント、入力内容、数値、クイズの回答は除外します。同意撤回後は収集を停止しますが、既に処理されたデータは削除されません。",
-    "es": "La analítica recibe rutas y nombres de funciones. Excluimos consultas y fragmentos de URL, texto, valores y respuestas. Retirar el permiso detiene la recogida futura, pero no elimina datos ya procesados."
+    "en": "Analytics receives page paths and feature names. We exclude URL queries, URL fragments, user-entered text, custom values and quiz answers. Withdrawing analytics permission stops future collection across these services; it does not remove data already processed by Google.",
+    "ko": "방문 통계에는 페이지 경로와 기능 이름만 전송합니다. URL 쿼리·해시·입력 내용·사용자 수치·퀴즈 답변은 제외합니다. 분석 동의를 철회하면 이후 전송이 중단되지만 Google이 이미 처리한 데이터는 삭제되지 않습니다.",
+    "ja": "解析にはページのパスと機能名のみを送り、URLのクエリ・フラグメント、入力内容、数値、クイズの回答は除外します。解析への同意を撤回すると今後の送信を停止しますが、Googleが既に処理したデータは削除されません。",
+    "es": "La analítica recibe rutas y nombres de funciones. Excluimos consultas y fragmentos de URL, texto, valores y respuestas. Retirar el permiso detiene la recogida futura en estos servicios, pero no elimina datos ya procesados por Google."
   },
   "Breakfast & Drinks": {
     "en": "Breakfast & Drinks",
