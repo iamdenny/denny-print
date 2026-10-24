@@ -1,6 +1,5 @@
-import { t } from "./i18n.js";
-const KEY = "denny-analytics-consent-v1",
-  TTL = 180 * 86400000;
+import { getPreferences } from "./consent.js";
+const TTL = 180 * 86400000;
 export function analyticsChoice(raw, now = Date.now()) {
   try {
     const c = JSON.parse(raw);
@@ -24,17 +23,9 @@ export function validMeasurement(id) {
 if (typeof document !== "undefined") {
   const config = JSON.parse(document.querySelector("#ad-config").textContent),
     id = location.hostname === config.siteDomain ? config.measurementId : null,
-    panel = document.querySelector("#analytics-choice");
+    saved = getPreferences();
   let loaded = false,
-    choice = null;
-  const read = () => {
-    try {
-      return analyticsChoice(localStorage.getItem(KEY));
-    } catch {
-      return null;
-    }
-  };
-  choice = read();
+    choice = saved?.analytics === true ? "granted" : saved?.analytics === false ? "denied" : null;
   function send() {
     window.dataLayer ||= [];
     window.dataLayer.push(arguments);
@@ -71,35 +62,18 @@ if (typeof document !== "undefined") {
     script.src = "https://www.googletagmanager.com/gtag/js?id=" + id;
     document.head.append(script);
   }
-  const open = () => {
-    if (!validMeasurement(id)) return;
-    document.querySelector("#ad-choice").hidden = true;
-    panel.hidden = false;
-    panel.querySelector("button").focus();
-  };
-  document
-    .querySelector("#analytics-settings")
-    ?.addEventListener("click", open);
-  document.addEventListener("ad-choice-saved", () => {
-    if (choice === null) open();
+  window.addEventListener("denny-consent-changed", (event) => {
+    const wasGranted = choice === "granted";
+    choice = event.detail.analytics ? "granted" : "denied";
+    apply();
+    if (loaded && wasGranted && choice !== "granted")
+      send("consent", "update", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+      });
   });
-  if (
-    validMeasurement(id) &&
-    choice === null &&
-    document.querySelector("#ad-choice").hidden
-  )
-    panel.hidden = false;
-  for (const b of document.querySelectorAll("[data-analytics-choice]"))
-    b.addEventListener("click", () => {
-      const wasLoaded = loaded;
-      choice = b.dataset.analyticsChoice;
-      try {
-        localStorage.setItem(KEY, JSON.stringify({ choice, at: Date.now() }));
-      } catch {}
-      panel.hidden = true;
-      apply();
-      if (wasLoaded && choice !== "granted") location.reload();
-    });
   document.addEventListener("click", (e) => {
     if (choice !== "granted" || !loaded) return;
     if (e.target.closest("[data-discovery-link]")) send("event", "select_discovery", { page_location: safePage(location.href), language: document.documentElement.lang });
@@ -135,13 +109,6 @@ if (typeof document !== "undefined") {
         page_location: safePage(location.href),
         language: document.documentElement.lang,
       });
-  });
-  window.addEventListener("storage", (e) => {
-    if (e.key === KEY || e.key === null) {
-      choice = read();
-      apply();
-      if (loaded && choice !== "granted") location.reload();
-    }
   });
   apply();
 }

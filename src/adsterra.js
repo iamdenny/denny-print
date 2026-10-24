@@ -1,4 +1,5 @@
 import { t } from "./i18n.js";
+import { getPreferences } from "./consent.js";
 const KEY = "denny-ad-consent-v1",
   LIFETIME = 180 * 86400000;
 export function readChoice(value, now = Date.now()) {
@@ -37,21 +38,10 @@ export function frameUrl(c) {
 if (typeof document !== "undefined") {
   const config = JSON.parse(document.querySelector("#ad-config").textContent),
     c = config.adsterra,
-    box = document.querySelector("[data-ad-placement]"),
-    panel = document.querySelector("#ad-choice"),
-    status = document.querySelector("#ad-choice-status");
-  let choice = null;
-  const read = () => {
-    try {
-      return readChoice(localStorage.getItem(KEY));
-    } catch {
-      return null;
-    }
-  };
-  choice = read();
+    box = document.querySelector("[data-ad-placement]");
+  let choice = getPreferences()?.ads === true ? "granted" : "denied";
   function render() {
-    if (!c || !validBanner(c)) return;
-    panel.hidden = choice !== null;
+    if (!c || !validBanner(c) || !box) return;
     box.hidden = false;
     box.querySelector("[data-ad-empty]").hidden = choice === "granted";
     if (choice !== "granted") {
@@ -72,36 +62,13 @@ if (typeof document !== "undefined") {
     iframe.src = frameUrl(c);
     box.append(iframe);
   }
-  for (const button of document.querySelectorAll("[data-ad-choice]"))
-    button.addEventListener("click", () => {
-      choice = button.dataset.adChoice;
-      try {
-        localStorage.setItem(KEY, JSON.stringify({ choice, at: Date.now() }));
-      } catch {
-        status.textContent = t(
-          "Your choice applies for this visit; browser storage is unavailable.",
-        );
-      }
-      render();
-      document.dispatchEvent(new Event("ad-choice-saved"));
-    });
-  for (const button of document.querySelectorAll(
-    "#ad-settings, [data-open-ads]",
-  ))
-    button.addEventListener("click", () => {
-      document.querySelector("#analytics-choice").hidden = true;
-      panel.hidden = false;
-      panel.querySelector("button").focus();
-    });
-  window.addEventListener("storage", (e) => {
-    if (e.key === KEY || e.key === null) {
-      choice = read();
-      render();
-    }
+  window.addEventListener("denny-consent-changed", (event) => {
+    choice = event.detail.ads ? "granted" : "denied";
+    render();
   });
   document.addEventListener("visibilitychange", () => {
     if (!document.hidden) {
-      choice = read();
+      choice = getPreferences()?.ads === true ? "granted" : "denied";
       render();
     }
   });
