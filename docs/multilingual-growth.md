@@ -1,4 +1,13 @@
+---
+title: "Multilingual launch, 22 October 2026"
+summary: "Historical release record; consult operations for the current implementation"
+read_when:
+  - Maintaining this service or reviewing its implementation
+---
+
 # Multilingual launch, 22 October 2026
+
+> Historical record: counts, layouts and provider observations below describe that release. See [current operations](operations.md) for the reviewed implementation and outstanding verification.
 
 - 84 indexable pages: English at `/`, Korean `/ko/`, Japanese `/ja/`, Spanish `/es/`.
 - Activity catalogs expose real playable presets. Existing English editorial guides keep their original URLs and are not mislabeled as translated articles.

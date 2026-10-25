@@ -1,4 +1,13 @@
+---
+title: "Content expansion — 23 October 2026"
+summary: "Historical release record; consult operations for the current implementation"
+read_when:
+  - Maintaining this service or reviewing its implementation
+---
+
 # Content expansion — 23 October 2026
+
+> Historical record: counts, layouts and provider observations below describe that release. See [current operations](operations.md) for the reviewed implementation and outstanding verification.
 
 10 arithmetic families × 10 fixed-number learning targets. Each edition generates 24 distinct exercises, with separate answers, deterministic editions, multi-sheet printing and shareable settings. Multiplication tables are extended beyond twelve.
 

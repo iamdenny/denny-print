@@ -1,4 +1,13 @@
+---
+title: "Content expansion, 24 October 2026"
+summary: "Historical release record; consult operations for the current implementation"
+read_when:
+  - Maintaining this service or reviewing its implementation
+---
+
 # Content expansion, 24 October 2026
+
+> Historical record: counts, layouts and provider observations below describe that release. See [current operations](operations.md) for the reviewed implementation and outstanding verification.
 
 This release adds 100 usable activity presets. Translations do not count as additional activities. Existing routes are retained.
 
