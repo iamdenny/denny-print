@@ -6,7 +6,7 @@ Printable bingo, mazes, English word searches and arithmetic worksheets. Edition
 
 ## Development
 
-Node 22+, native ES modules, no runtime dependencies. Run `npm run verify` for tests, static build and SEO/link audits. Run `npm run dev` (default port 4300); set `PORT` to use another port. Generated output is `dist/`.
+Node.js 24.22.1 (24.x), native ES modules, no runtime dependencies. Run `npm run verify` for tests, static build and SEO/link audits. Run `npm run dev` (default port 4300); set `PORT` to use another port. Generated output is `dist/`.
 
 ## Content and languages
 

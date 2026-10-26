@@ -15,7 +15,7 @@ Six small services must publish useful multilingual pages, support browser-local
 
 ## Decision
 
-Generate `dist/` from versioned source using Node 22+ without a runtime backend. Publish meaningful HTML, metadata and structured data before client JavaScript executes. Browser modules handle tool interaction and local state. Explicit share links may expose their encoded payload; they are neither authenticated sessions nor synchronized multiplayer state.
+Generate `dist/` from versioned source using Node.js 24.22.1 within the 24.x line without a runtime backend. Publish meaningful HTML, metadata and structured data before client JavaScript executes. Browser modules handle tool interaction and local state. Explicit share links may expose their encoded payload; they are neither authenticated sessions nor synchronized multiplayer state.
 
 Use stable activity identifiers and preserve published paths. Count an activity once across locales; count rendered pages separately. This service's English prefix is `/`, with `/ko/`, `/ja/` and `/es/` for the other locales. Never infer English route prefixes from a sibling repository. Existing English-only editorial routes remain English-only until genuinely translated.
 
